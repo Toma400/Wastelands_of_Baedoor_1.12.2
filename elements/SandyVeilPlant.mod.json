@@ -1,0 +1,40 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "sandy_veil_early",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "name": "Sandy Veil Plant",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": "CUSTOM:SandDust"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": "CUSTOM:SandDust"
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "SandyVeilGrowth"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "wobr:nether_avoider_active"
+    }
+  }
+}

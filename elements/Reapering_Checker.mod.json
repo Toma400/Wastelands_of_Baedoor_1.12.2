@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "wobrCheck_Avoider",
+    "onCommandExecuted": {
+      "name": "Com_Reapering_Check"
+    }
+  }
+}

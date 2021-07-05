@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_throwing_axe",
+    "customModelName": "Normal",
+    "name": "Iron Throwing Axe",
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsofBaedoor"
+    },
+    "stackSize": 8,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ThrowingDaggerProjectile"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "Throwing_Axe_Bounce_Iron"
+    },
+    "onRangedItemUsed": {
+      "name": "Throwing_Axe_Inventory"
+    }
+  }
+}

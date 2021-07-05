@@ -1,0 +1,26 @@
+{
+  "group": "soul_sand",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:nethersoulessence"
+    },
+    "1": {
+      "item": "wobr:vulcanicsand"
+    },
+    "2": {
+      "item": "wobr:vulcanicsand"
+    },
+    "3": {
+      "item": "wobr:nethersoulessence"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_sand",
+    "count": 1
+  }
+}

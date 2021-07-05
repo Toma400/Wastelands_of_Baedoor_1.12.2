@@ -1,0 +1,19 @@
+{
+  "group": "barrels",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "wobr:shortbarrel",
+    "count": 1
+  }
+}

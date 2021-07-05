@@ -1,0 +1,12 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "name": "tag_shotguns",
+    "namespace": "mod"
+  }
+}

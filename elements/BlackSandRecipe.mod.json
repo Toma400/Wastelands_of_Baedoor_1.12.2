@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "black_sand",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ash_Dust"
+      },
+      {
+        "value": "CUSTOM:Ash_Dust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ash_Dust"
+      },
+      {
+        "value": "CUSTOM:Ash_Dust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VulcanicSand"
+    },
+    "name": "blacksandrecipe",
+    "namespace": "mod"
+  }
+}

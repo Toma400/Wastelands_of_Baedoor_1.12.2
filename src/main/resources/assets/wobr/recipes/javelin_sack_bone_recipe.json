@@ -1,0 +1,42 @@
+{
+  "group": "javelin_sack",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:bonejavelin"
+    },
+    "1": {
+      "item": "wobr:bonejavelin"
+    },
+    "2": {
+      "item": "wobr:bonejavelin"
+    },
+    "3": {
+      "item": "wobr:bonejavelin"
+    },
+    "4": {
+      "item": "wobr:javelinsack"
+    },
+    "5": {
+      "item": "wobr:bonejavelin"
+    },
+    "6": {
+      "item": "wobr:bonejavelin"
+    },
+    "7": {
+      "item": "wobr:bonejavelin"
+    },
+    "8": {
+      "item": "wobr:bonejavelin"
+    }
+  },
+  "result": {
+    "item": "wobr:javelin_sack_bone",
+    "count": 1
+  }
+}

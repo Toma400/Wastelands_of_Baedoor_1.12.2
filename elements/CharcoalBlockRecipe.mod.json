@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "charcoal_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CharcoalBlock"
+    },
+    "name": "charcoalblockrecipe",
+    "namespace": "mod"
+  }
+}

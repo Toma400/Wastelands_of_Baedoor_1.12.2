@@ -1,0 +1,26 @@
+{
+  "group": "fermented_spider_eye",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom"
+    },
+    "1": {
+      "item": "minecraft:spider_eye"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "chiseled_red_nether_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_nether_brick"
+    },
+    "1": {
+      "item": "minecraft:red_nether_brick"
+    },
+    "2": {
+      "item": "minecraft:red_nether_brick"
+    },
+    "3": {
+      "item": "minecraft:red_nether_brick"
+    }
+  },
+  "result": {
+    "item": "wobr:chiseledrednetherbricks",
+    "count": 4
+  }
+}

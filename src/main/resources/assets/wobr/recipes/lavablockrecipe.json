@@ -1,0 +1,42 @@
+{
+  "group": "lava_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:lavaingot"
+    },
+    "1": {
+      "item": "wobr:lavaingot"
+    },
+    "2": {
+      "item": "wobr:lavaingot"
+    },
+    "3": {
+      "item": "wobr:lavaingot"
+    },
+    "4": {
+      "item": "wobr:lavaingot"
+    },
+    "5": {
+      "item": "wobr:lavaingot"
+    },
+    "6": {
+      "item": "wobr:lavaingot"
+    },
+    "7": {
+      "item": "wobr:lavaingot"
+    },
+    "8": {
+      "item": "wobr:lavaingot"
+    }
+  },
+  "result": {
+    "item": "wobr:lavablock",
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "javelin_sack",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:JavelinSack"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      },
+      {
+        "value": "CUSTOM:Stone_Javelin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Javelin_Sack_Stone"
+    },
+    "name": "javelin_sack_stone_recipe",
+    "namespace": "mod"
+  }
+}

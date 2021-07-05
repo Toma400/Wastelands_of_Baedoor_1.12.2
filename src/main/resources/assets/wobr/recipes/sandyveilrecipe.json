@@ -1,0 +1,17 @@
+{
+  "group": "sandy_veil",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "sandy_veil"
+    }
+  },
+  "result": {
+    "item": "wobr:sanddust",
+    "count": 3
+  }
+}

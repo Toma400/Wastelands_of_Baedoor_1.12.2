@@ -1,0 +1,38 @@
+{
+  "failed_shot": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wobr:failed_shot",
+        "stream": false
+      }
+    ]
+  },
+  "handmade_revolver_shot": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wobr:old_pepper_handmade_revolver_shot",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_reload": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wobr:revolver_reload",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_reload_full": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "wobr:revolver_reload_full",
+        "stream": false
+      }
+    ]
+  }
+}

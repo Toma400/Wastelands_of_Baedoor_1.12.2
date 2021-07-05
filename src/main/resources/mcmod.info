@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "wobr",
+    "name": "[1.12] Wastelands of Baedoor",
+    "description": "1.12.2 port of Wastelands of Baedoor mod, adding steampunk universe into Minecraft, as well as firearms and a lot of vanilla-expansion features. Port development is separate, meaning versions will have different changelogs (but aiming for future parity as much as possible).",
+    "version": "12v0.a3",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "assets/wobr/textures/wob_logo.png",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "Toma400"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

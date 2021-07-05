@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Reveal",
+    "achievementDescription": "You entered the world of Wastelands of Baedoor...",
+    "achievementIcon": {
+      "value": "CUSTOM:HandmadeRevolver"
+    },
+    "background": "regular_dark_oak.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "FirearmLockRecipe",
+      "SmallGripRecipe",
+      "ShortBarrelRecipe",
+      "HandmadeRevolverRecipe",
+      "CrackedBoneRecipe",
+      "ThrowingDaggerRecipe",
+      "BoneJavelinRecipe",
+      "Stone_Javelin_Recipe",
+      "JavelinSackRecipe",
+      "Javelin_Sack_Bone_Recipe",
+      "Javelin_Sack_Stone_Recipe",
+      "MushroomPoisonRecipe",
+      "MushroomPoisonBlockRecipe",
+      "Mushroom_Poison_Block_UnRecipe",
+      "PoisonedThrowingDaggerRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"41\" y=\"44\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Nether Avoider Pulsating",
+    "effectName": "Nether Avoider Pulsating",
+    "icon": "nether_avoider_pulsating.png",
+    "color": {
+      "value": -11141120,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "NetherAvoiderTagKill"
+    }
+  }
+}

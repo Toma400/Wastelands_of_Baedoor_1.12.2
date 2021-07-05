@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "mushroom_poison_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      },
+      {
+        "value": "CUSTOM:MushroomPoison"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MushroomPoisonBlock"
+    },
+    "name": "mushroompoisonblockrecipe",
+    "namespace": "mod"
+  }
+}

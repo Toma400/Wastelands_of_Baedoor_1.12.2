@@ -1,0 +1,86 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "wandering_trader_gui_4.png",
+          "name": "wandering_trader_gui_4.png",
+          "x": 276,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "onSlotChanged": {
+            "name": "WanderingTrades"
+          },
+          "onTakenFromSlot": {
+            "name": "WanderingTrades"
+          },
+          "name": "Slot #1",
+          "x": 295,
+          "y": 135
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "onSlotChanged": {
+            "name": "WanderingTrades"
+          },
+          "onTakenFromSlot": {
+            "name": "WanderingTrades"
+          },
+          "name": "Slot #2",
+          "x": 335,
+          "y": 135
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "onSlotChanged": {
+            "name": "WanderingTrades"
+          },
+          "onTakenFromSlot": {
+            "name": "WanderingTrades"
+          },
+          "name": "Slot #3",
+          "x": 483,
+          "y": 135
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "»",
+          "onClick": {
+            "name": "WanderingTrades"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "»",
+          "x": 529,
+          "y": 133
+        }
+      }
+    ]
+  }
+}

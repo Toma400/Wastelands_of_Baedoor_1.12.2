@@ -1,0 +1,37 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "vulcanic_veil",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Nether",
+    "growapableMaxHeight": 3,
+    "name": "Vulcanic Veil",
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsofBaedoor"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": "CUSTOM:Ash_Dust"
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "background": "wobr:textures/regular_dark_oak.png",
+    "icon": {
+      "item": "wobr:handmaderevolver"
+    },
+    "title": {
+      "translate": "advancements.reveal.title"
+    },
+    "description": {
+      "translate": "advancements.reveal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reveal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "wobr:firearmlockrecipe",
+      "wobr:smallgriprecipe",
+      "wobr:shortbarrelrecipe",
+      "wobr:handmaderevolverrecipe",
+      "wobr:crackedbonerecipe",
+      "wobr:throwingdaggerrecipe",
+      "wobr:bonejavelinrecipe",
+      "wobr:stone_javelin_recipe",
+      "wobr:javelinsackrecipe",
+      "wobr:javelin_sack_bone_recipe",
+      "wobr:javelin_sack_stone_recipe",
+      "wobr:mushroompoisonrecipe",
+      "wobr:mushroompoisonblockrecipe",
+      "wobr:mushroom_poison_block_unrecipe",
+      "wobr:poisonedthrowingdaggerrecipe"
+    ]
+  }
+}

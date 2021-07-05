@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "thrown_dagger",
+    "customModelName": "Normal",
+    "name": "Throwing Dagger",
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsofBaedoor"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ThrowingDaggerProjectile"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ThrowingDaggerCollision"
+    },
+    "onRangedItemUsed": {
+      "name": "ThrowingDaggerInventory"
+    }
+  }
+}

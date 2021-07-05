@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Nether Avoider Shield",
+    "effectName": "Nether Avoider Shield",
+    "icon": "nether_shielding.png",
+    "color": {
+      "value": -14117740,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [],
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "NetherAvoiderShieldActivate"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "javelin",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "wobr:crackedbone"
+    },
+    "3": {
+      "item": "wobr:crackedbone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "wobr:crackedbone"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wobr:bonejavelin",
+    "count": 1
+  }
+}

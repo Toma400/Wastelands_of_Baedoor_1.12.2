@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"188\" y=\"33\"><field name=\"trigger\">No additional trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"compare_mcitems\"><value name=\"a\"><block type=\"entity_iteminhand\"/></value><value name=\"b\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CrackedBone</field></block></value></block></value><statement name=\"DO0\"><block type=\"shoot_arrow\"><value name=\"speed\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"damage\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value><value name=\"knockback\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/execute @e[type=Arrow] ~ ~ ~ summon Fireball ~ ~ ~ {direction:[0.0,0.0,0.0],ExplosionPower:1}</field></block></value><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">execute @a[type=Arrow,distance=..2] ~ ~ ~ /summon fireball ~ ~ ~ {direction:[0.0,0.0,0.0]}</field></block></value></block></next></block></next></block></statement></block></next></block></xml>"
+  }
+}
