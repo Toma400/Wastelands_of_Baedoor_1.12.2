@@ -1,0 +1,8 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "bottom": "wobr:blocks/chisel_spruce",
+    "top": "wobr:blocks/chisel_spruce",
+    "side": "wobr:blocks/wood_spruce"
+  }
+}

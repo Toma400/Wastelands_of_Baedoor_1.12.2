@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "wobr:blocks/baedoor_gold_block",
+    "top": "wobr:blocks/baedoor_gold_block",
+    "side": "wobr:blocks/baedoor_gold_block"
+  }
+}

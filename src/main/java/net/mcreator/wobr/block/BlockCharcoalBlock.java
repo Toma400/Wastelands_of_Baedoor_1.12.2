@@ -19,27 +19,27 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockCharcoalBlock extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:charcoalblock")
+	@GameRegistry.ObjectHolder("wobr:charcoal_block")
 	public static final Block block = null;
 	public BlockCharcoalBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 13);
+		super(instance, 15);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("charcoalblock"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("charcoal_block"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:charcoalblock", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:charcoal_block", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("charcoalblock");
+			setUnlocalizedName("charcoal_block");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 1);
 			setHardness(5F);

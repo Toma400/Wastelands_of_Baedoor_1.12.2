@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "regular_palm",
+        "1": "chisel_palm"
+      },
+      "name": "default"
+    }
+  }
+}

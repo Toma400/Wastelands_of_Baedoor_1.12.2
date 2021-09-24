@@ -21,10 +21,10 @@ import java.util.List;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemNetherSoulEssence extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:nethersoulessence")
+	@GameRegistry.ObjectHolder("wobr:nether_soul_essence")
 	public static final Item block = null;
 	public ItemNetherSoulEssence(ElementsWastelandsofBaedoor instance) {
-		super(instance, 31);
+		super(instance, 80);
 	}
 
 	@Override
@@ -35,14 +35,14 @@ public class ItemNetherSoulEssence extends ElementsWastelandsofBaedoor.ModElemen
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:nethersoulessence", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:nether_soul_essence", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("nethersoulessence");
-			setRegistryName("nethersoulessence");
+			setUnlocalizedName("nether_soul_essence");
+			setRegistryName("nether_soul_essence");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

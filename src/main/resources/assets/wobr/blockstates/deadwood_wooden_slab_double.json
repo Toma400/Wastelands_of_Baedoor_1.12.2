@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:deadwood_wooden_slab_double"
+    }
+  }
+}

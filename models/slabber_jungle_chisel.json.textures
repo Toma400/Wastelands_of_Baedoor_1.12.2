@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wood_jungle",
+        "1": "chisel_jungle"
+      },
+      "name": "default"
+    }
+  }
+}

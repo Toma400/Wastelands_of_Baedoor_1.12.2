@@ -1,0 +1,22 @@
+{
+  "group": "baedoor_golden_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:baedoor_gold_ingot"
+    },
+    "1": {
+      "item": "wobr:baedoor_gold_ingot"
+    },
+    "2": {
+      "item": "wobr:baedoor_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "wobr:mimicgoldslab",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wobr:blocks/chisel_palm",
+    "particle": "wobr:blocks/regular_palm"
+  }
+}

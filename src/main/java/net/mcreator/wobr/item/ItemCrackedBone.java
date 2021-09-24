@@ -17,10 +17,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemCrackedBone extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:crackedbone")
+	@GameRegistry.ObjectHolder("wobr:cracked_bone")
 	public static final Item block = null;
 	public ItemCrackedBone(ElementsWastelandsofBaedoor instance) {
-		super(instance, 30);
+		super(instance, 78);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemCrackedBone extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:crackedbone", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:cracked_bone", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("crackedbone");
-			setRegistryName("crackedbone");
+			setUnlocalizedName("cracked_bone");
+			setRegistryName("cracked_bone");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

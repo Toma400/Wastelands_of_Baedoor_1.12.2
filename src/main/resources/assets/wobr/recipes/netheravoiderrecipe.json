@@ -16,7 +16,7 @@
       "data": 1
     },
     "4": {
-      "item": "wobr:glowingobsidian"
+      "item": "wobr:glowing_obsidian"
     },
     "5": {
       "item": "minecraft:skull",
@@ -27,7 +27,7 @@
     }
   },
   "result": {
-    "item": "wobr:netheravoiderinactive",
+    "item": "wobr:nether_avoider_inactive",
     "count": 1
   }
 }

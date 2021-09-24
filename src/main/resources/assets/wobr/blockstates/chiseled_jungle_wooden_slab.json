@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "wobr:chiseled_jungle_wooden_slab"
+    },
+    "half=top,variant=default": {
+      "model": "wobr:chiseled_jungle_wooden_slab_top"
+    }
+  }
+}

@@ -17,10 +17,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemSmallGrip extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:smallgrip")
+	@GameRegistry.ObjectHolder("wobr:small_grip")
 	public static final Item block = null;
 	public ItemSmallGrip(ElementsWastelandsofBaedoor instance) {
-		super(instance, 28);
+		super(instance, 76);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemSmallGrip extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:smallgrip", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:small_grip", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("smallgrip");
-			setRegistryName("smallgrip");
+			setUnlocalizedName("small_grip");
+			setRegistryName("small_grip");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

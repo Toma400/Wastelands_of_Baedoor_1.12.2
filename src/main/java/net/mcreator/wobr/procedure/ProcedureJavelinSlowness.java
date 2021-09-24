@@ -10,7 +10,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureJavelinSlowness extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureJavelinSlowness(ElementsWastelandsofBaedoor instance) {
-		super(instance, 68);
+		super(instance, 130);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

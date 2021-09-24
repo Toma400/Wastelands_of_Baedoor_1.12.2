@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:acacia_wooden_slab_double"
+    }
+  }
+}

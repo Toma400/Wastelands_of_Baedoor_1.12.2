@@ -17,7 +17,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemLavaIngot extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:lavaingot")
+	@GameRegistry.ObjectHolder("wobr:lava_ingot")
 	public static final Item block = null;
 	public ItemLavaIngot(ElementsWastelandsofBaedoor instance) {
 		super(instance, 12);
@@ -31,14 +31,14 @@ public class ItemLavaIngot extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:lavaingot", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:lava_ingot", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("lavaingot");
-			setRegistryName("lavaingot");
+			setUnlocalizedName("lava_ingot");
+			setRegistryName("lava_ingot");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

@@ -19,7 +19,7 @@ public class ItemProjectileBullet extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:projectilebullet")
 	public static final Item block = null;
 	public ItemProjectileBullet(ElementsWastelandsofBaedoor instance) {
-		super(instance, 63);
+		super(instance, 125);
 	}
 
 	@Override

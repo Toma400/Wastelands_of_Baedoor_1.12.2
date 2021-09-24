@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "sand",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SandDust"
+      },
+      {
+        "value": "CUSTOM:SandDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SandDust"
+      },
+      {
+        "value": "CUSTOM:SandDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SAND#0"
+    },
+    "name": "sandrecipe",
+    "namespace": "mod"
+  }
+}

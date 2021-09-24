@@ -17,10 +17,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemFirearmLock extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:firearmlock")
+	@GameRegistry.ObjectHolder("wobr:firearm_lock")
 	public static final Item block = null;
 	public ItemFirearmLock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 27);
+		super(instance, 75);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemFirearmLock extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:firearmlock", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:firearm_lock", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("firearmlock");
-			setRegistryName("firearmlock");
+			setUnlocalizedName("firearm_lock");
+			setRegistryName("firearm_lock");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

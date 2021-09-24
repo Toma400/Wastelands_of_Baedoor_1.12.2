@@ -12,7 +12,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureReloadScore extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureReloadScore(ElementsWastelandsofBaedoor instance) {
-		super(instance, 43);
+		super(instance, 105);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

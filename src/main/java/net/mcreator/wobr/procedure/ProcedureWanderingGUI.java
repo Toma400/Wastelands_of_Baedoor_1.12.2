@@ -4,14 +4,14 @@ import net.minecraft.world.World;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.wobr.gui.GuiWanderingTraderGUI;
+import net.mcreator.wobr.gui.GuiWanderingTraderAlternativeGUI;
 import net.mcreator.wobr.WastelandsofBaedoor;
 import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingGUI extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingGUI(ElementsWastelandsofBaedoor instance) {
-		super(instance, 98);
+		super(instance, 159);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -43,6 +43,6 @@ public class ProcedureWanderingGUI extends ElementsWastelandsofBaedoor.ModElemen
 		if (entity instanceof EntityPlayer)
 			((EntityPlayer) entity).closeScreen();
 		if (entity instanceof EntityPlayer)
-			((EntityPlayer) entity).openGui(WastelandsofBaedoor.instance, GuiWanderingTraderGUI.GUIID, world, x, y, z);
+			((EntityPlayer) entity).openGui(WastelandsofBaedoor.instance, GuiWanderingTraderAlternativeGUI.GUIID, world, x, y, z);
 	}
 }

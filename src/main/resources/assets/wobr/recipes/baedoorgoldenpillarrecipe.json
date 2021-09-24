@@ -1,0 +1,24 @@
+{
+  "group": "baedoor_golden_pillar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:baedoor_gold_ingot"
+    },
+    "1": {
+      "item": "wobr:baedoor_gold_ingot"
+    },
+    "2": {
+      "item": "wobr:baedoor_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "wobr:baedoor_funt_block_pillar",
+    "count": 1
+  }
+}

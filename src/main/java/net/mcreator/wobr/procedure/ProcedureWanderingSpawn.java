@@ -15,7 +15,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingSpawn extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingSpawn(ElementsWastelandsofBaedoor instance) {
-		super(instance, 100);
+		super(instance, 161);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -39,8 +39,7 @@ public class ProcedureWanderingSpawn extends ElementsWastelandsofBaedoor.ModElem
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((((WastelandsofBaedoorVariables.MapVariables.get(world).Merchable) == (true))
-				&& (((WastelandsofBaedoorVariables.MapVariables.get(world).Merchant) == (false)) && ((world.getWorldTime()) == 1000)))) {
+		if ((((WastelandsofBaedoorVariables.MapVariables.get(world).Merchant) == (false)) && ((world.getWorldTime()) == 1000))) {
 			if ((5 >= (Math.random() * 100))) {
 				if (!world.isRemote) {
 					Entity entityToSpawn = new EntityWanderingMerchant.EntityCustom(world);

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "wobr:chiseled_deadwood_wooden_slab"
+    },
+    "half=top,variant=default": {
+      "model": "wobr:chiseled_deadwood_wooden_slab_top"
+    }
+  }
+}

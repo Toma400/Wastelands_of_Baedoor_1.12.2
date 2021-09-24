@@ -19,27 +19,27 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockGlowingObsidian extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:glowingobsidian")
+	@GameRegistry.ObjectHolder("wobr:glowing_obsidian")
 	public static final Block block = null;
 	public BlockGlowingObsidian(ElementsWastelandsofBaedoor instance) {
-		super(instance, 15);
+		super(instance, 63);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("glowingobsidian"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("glowing_obsidian"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:glowingobsidian", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:glowing_obsidian", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("glowingobsidian");
+			setUnlocalizedName("glowing_obsidian");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 3);
 			setHardness(50F);

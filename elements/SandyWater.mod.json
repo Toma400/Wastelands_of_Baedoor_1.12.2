@@ -1,0 +1,28 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "SandyWater",
+    "textureStill": "sandy_water",
+    "textureFlowing": "sandy_water",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsIntegrations"
+    },
+    "spawnWorldTypes": [],
+    "onNeighbourChanges": {
+      "name": "SandyWaterGen"
+    },
+    "onTickUpdate": {
+      "name": "SandyWaterGen"
+    },
+    "onEntityCollides": {
+      "name": "SandyWaterCollision"
+    }
+  }
+}

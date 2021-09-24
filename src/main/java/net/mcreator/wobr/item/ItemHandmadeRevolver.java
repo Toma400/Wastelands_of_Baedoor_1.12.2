@@ -32,7 +32,7 @@ import com.google.common.collect.Multimap;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemHandmadeRevolver extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:handmaderevolver")
+	@GameRegistry.ObjectHolder("wobr:handmade_revolver")
 	public static final Item block = null;
 	public ItemHandmadeRevolver(ElementsWastelandsofBaedoor instance) {
 		super(instance, 8);
@@ -80,13 +80,13 @@ public class ItemHandmadeRevolver extends ElementsWastelandsofBaedoor.ModElement
 					ProcedureFirearmInfo.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("handmaderevolver").setRegistryName("handmaderevolver").setCreativeTab(TabWastelandsofBaedoor.tab));
+		}.setUnlocalizedName("handmade_revolver").setRegistryName("handmade_revolver").setCreativeTab(TabWastelandsofBaedoor.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:handmaderevolver", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:handmade_revolver", "inventory"));
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {

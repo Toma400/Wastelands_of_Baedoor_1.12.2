@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class TabWastelandsofBaedoor extends ElementsWastelandsofBaedoor.ModElement {
 	public TabWastelandsofBaedoor(ElementsWastelandsofBaedoor instance) {
-		super(instance, 33);
+		super(instance, 95);
 	}
 
 	@Override

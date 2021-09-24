@@ -6,11 +6,11 @@
   ],
   "key": {
     "0": {
-      "item": "wobr:mushroompoisonblock"
+      "item": "wobr:mushroom_poison_block"
     }
   },
   "result": {
-    "item": "wobr:mushroompoison",
+    "item": "wobr:mushroom_poison",
     "count": 9
   }
 }

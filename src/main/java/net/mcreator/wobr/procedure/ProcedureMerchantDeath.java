@@ -8,7 +8,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureMerchantDeath extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureMerchantDeath(ElementsWastelandsofBaedoor instance) {
-		super(instance, 102);
+		super(instance, 163);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

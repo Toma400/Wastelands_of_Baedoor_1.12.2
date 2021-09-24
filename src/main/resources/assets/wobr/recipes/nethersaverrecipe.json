@@ -14,7 +14,7 @@
       "item": "minecraft:emerald"
     },
     "4": {
-      "item": "wobr:glowingobsidian"
+      "item": "wobr:glowing_obsidian"
     },
     "5": {
       "item": "minecraft:emerald"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "wobr:unknown_element",
+    "item": "wobr:nether_shielder",
     "count": 1
   }
 }

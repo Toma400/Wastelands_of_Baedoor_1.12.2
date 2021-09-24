@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:baedoor_funt_block_slab_double"
+    }
+  }
+}

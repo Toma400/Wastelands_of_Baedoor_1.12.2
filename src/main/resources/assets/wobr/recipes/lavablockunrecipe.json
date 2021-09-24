@@ -6,11 +6,11 @@
   ],
   "key": {
     "0": {
-      "item": "wobr:lavablock"
+      "item": "wobr:lava_block"
     }
   },
   "result": {
-    "item": "wobr:lavaingot",
+    "item": "wobr:lava_ingot",
     "count": 9
   }
 }

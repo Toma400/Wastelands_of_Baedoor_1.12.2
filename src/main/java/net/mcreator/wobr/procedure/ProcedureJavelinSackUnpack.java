@@ -17,7 +17,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureJavelinSackUnpack extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureJavelinSackUnpack(ElementsWastelandsofBaedoor instance) {
-		super(instance, 74);
+		super(instance, 136);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

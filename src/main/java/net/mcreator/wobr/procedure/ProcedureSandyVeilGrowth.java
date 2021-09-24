@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureSandyVeilGrowth extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureSandyVeilGrowth(ElementsWastelandsofBaedoor instance) {
-		super(instance, 133);
+		super(instance, 191);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

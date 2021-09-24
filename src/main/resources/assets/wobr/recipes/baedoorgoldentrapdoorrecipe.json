@@ -1,0 +1,19 @@
+{
+  "group": "baedoor_golden_trapdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:baedoor_gold_ingot"
+    },
+    "1": {
+      "item": "wobr:baedoor_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "wobr:baedoor_funt_block_trapdoor",
+    "count": 1
+  }
+}

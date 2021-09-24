@@ -37,7 +37,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemBoneJavelin extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:bonejavelin")
+	@GameRegistry.ObjectHolder("wobr:bone_javelin")
 	public static final Item block = null;
 	public static final int ENTITYID = 4;
 	public ItemBoneJavelin(ElementsWastelandsofBaedoor instance) {
@@ -48,13 +48,14 @@ public class ItemBoneJavelin extends ElementsWastelandsofBaedoor.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new RangedItem());
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityArrowCustom.class)
-				.id(new ResourceLocation("wobr", "entitybulletbonejavelin"), ENTITYID).name("entitybulletbonejavelin").tracker(64, 1, true).build());
+				.id(new ResourceLocation("wobr", "entitybulletbone_javelin"), ENTITYID).name("entitybulletbone_javelin").tracker(64, 1, true)
+				.build());
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:bonejavelin", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:bone_javelin", "inventory"));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -70,8 +71,8 @@ public class ItemBoneJavelin extends ElementsWastelandsofBaedoor.ModElement {
 			super();
 			setMaxDamage(0);
 			setFull3D();
-			setUnlocalizedName("bonejavelin");
-			setRegistryName("bonejavelin");
+			setUnlocalizedName("bone_javelin");
+			setRegistryName("bone_javelin");
 			maxStackSize = 4;
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}

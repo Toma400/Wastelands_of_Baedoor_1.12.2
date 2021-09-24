@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "pale_gold_ingot",
+    "customModelName": "Normal",
+    "name": "Pale Gold Ingot",
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsofBaedoor"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Be quick with taking that to furnace... it can become more pale than you think"
+    ],
+    "hasGlow": false,
+    "onItemInInventoryTick": {
+      "name": "PaleGoldIngotDisappearing"
+    }
+  }
+}

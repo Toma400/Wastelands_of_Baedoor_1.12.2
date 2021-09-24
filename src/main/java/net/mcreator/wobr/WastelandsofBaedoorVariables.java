@@ -16,7 +16,6 @@ public class WastelandsofBaedoorVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "wobr_mapvars";
 		public boolean Merchant = false;
-		public boolean Merchable = false;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -28,13 +27,11 @@ public class WastelandsofBaedoorVariables {
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
 			Merchant = nbt.getBoolean("Merchant");
-			Merchable = nbt.getBoolean("Merchable");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 			nbt.setBoolean("Merchant", Merchant);
-			nbt.setBoolean("Merchable", Merchable);
 			return nbt;
 		}
 

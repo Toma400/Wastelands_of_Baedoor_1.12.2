@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "wobr:blocks/wood_jungle",
+    "top": "wobr:blocks/wood_jungle",
+    "side": "wobr:blocks/wood_jungle"
+  }
+}

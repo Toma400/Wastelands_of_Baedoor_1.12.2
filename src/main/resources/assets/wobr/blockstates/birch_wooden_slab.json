@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "wobr:birch_wooden_slab"
+    },
+    "half=top,variant=default": {
+      "model": "wobr:birch_wooden_slab_top"
+    }
+  }
+}

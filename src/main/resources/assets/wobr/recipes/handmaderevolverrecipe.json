@@ -13,14 +13,14 @@
       "item": "minecraft:blaze_rod"
     },
     "2": {
-      "item": "wobr:smallgrip"
+      "item": "wobr:small_grip"
     },
     "3": {
-      "item": "wobr:shortbarrel"
+      "item": "wobr:short_barrel"
     }
   },
   "result": {
-    "item": "wobr:handmaderevolver",
+    "item": "wobr:handmade_revolver",
     "count": 1
   }
 }

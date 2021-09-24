@@ -1,0 +1,25 @@
+{
+  "group": "wooden_slabs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    "1": {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    "2": {
+      "item": "minecraft:log",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "wobr:mimic_oak_slab",
+    "count": 6
+  }
+}

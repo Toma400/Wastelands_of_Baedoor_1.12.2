@@ -19,27 +19,27 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockFirearmTable extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:firearmtable")
+	@GameRegistry.ObjectHolder("wobr:firearm_table")
 	public static final Block block = null;
 	public BlockFirearmTable(ElementsWastelandsofBaedoor instance) {
-		super(instance, 14);
+		super(instance, 62);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("firearmtable"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("firearm_table"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:firearmtable", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:firearm_table", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.WOOD);
-			setUnlocalizedName("firearmtable");
+			setUnlocalizedName("firearm_table");
 			setSoundType(SoundType.WOOD);
 			setHarvestLevel("axe", 0);
 			setHardness(1F);

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "regular_deadwood",
+        "1": "chisel_deadwood"
+      },
+      "name": "default"
+    }
+  }
+}

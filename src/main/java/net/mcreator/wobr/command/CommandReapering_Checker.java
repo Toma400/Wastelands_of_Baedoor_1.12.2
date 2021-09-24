@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class CommandReapering_Checker extends ElementsWastelandsofBaedoor.ModElement {
 	public CommandReapering_Checker(ElementsWastelandsofBaedoor instance) {
-		super(instance, 118);
+		super(instance, 179);
 	}
 
 	@Override

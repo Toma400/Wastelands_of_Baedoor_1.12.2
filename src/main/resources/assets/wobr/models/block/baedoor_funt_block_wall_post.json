@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_post",
+  "textures": {
+    "wall": "wobr:blocks/baedoor_gold_block",
+    "particle": "wobr:blocks/baedoor_gold_block"
+  }
+}

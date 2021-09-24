@@ -8,35 +8,35 @@
   ],
   "key": {
     "0": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "1": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "2": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "3": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "4": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "5": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "6": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "7": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     },
     "8": {
-      "item": "wobr:mushroompoison"
+      "item": "wobr:mushroom_poison"
     }
   },
   "result": {
-    "item": "wobr:mushroompoisonblock",
+    "item": "wobr:mushroom_poison_block",
     "count": 1
   }
 }

@@ -37,7 +37,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NetherSaver"
+      "value": "CUSTOM:Nether_Shielder"
     },
     "name": "nethersaverrecipe",
     "namespace": "mod"

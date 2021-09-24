@@ -2,7 +2,7 @@
   "display": {
     "background": "wobr:textures/regular_dark_oak.png",
     "icon": {
-      "item": "wobr:handmaderevolver"
+      "item": "wobr:handmade_revolver"
     },
     "title": {
       "translate": "advancements.reveal.title"
@@ -17,7 +17,18 @@
   },
   "criteria": {
     "reveal": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:air",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
@@ -37,7 +48,59 @@
       "wobr:mushroompoisonrecipe",
       "wobr:mushroompoisonblockrecipe",
       "wobr:mushroom_poison_block_unrecipe",
-      "wobr:poisonedthrowingdaggerrecipe"
+      "wobr:poisonedthrowingdaggerrecipe",
+      "wobr:fermentedspidereyerecipe",
+      "wobr:dispenserrecipe",
+      "wobr:lavaingotrecipe",
+      "wobr:lavablockrecipe",
+      "wobr:lavablockunrecipe",
+      "wobr:lavablockcrackedrecipe",
+      "wobr:chiseledrednetherbricksrecipe",
+      "wobr:charcoalblockrecipe",
+      "wobr:charcoalblockunrecipe",
+      "wobr:netheravoiderrecipe",
+      "wobr:nethersaverrecipe",
+      "wobr:sandyveilrecipe",
+      "wobr:vulcanic_veil_recipe",
+      "wobr:blacksandrecipe",
+      "wobr:soulsandrenewability",
+      "wobr:sandrecipe",
+      "wobr:oakwoodenslabrecipe",
+      "wobr:dark_oak_wooden_slab_recipe",
+      "wobr:spruce_wooden_slab_recipe",
+      "wobr:jungle_wooden_slab_recipe",
+      "wobr:acacia_wooden_slab_recipe",
+      "wobr:birch_wooden_slab_recipe",
+      "wobr:oakwoodenstairsrecipe",
+      "wobr:dark_oak_wooden_stairs_recipe",
+      "wobr:spruce_wooden_stairs_recipe",
+      "wobr:jungle_wooden_stairs_recipe",
+      "wobr:acacia_wooden_stairs_recipe",
+      "wobr:birch_wooden_stairs_recipe",
+      "wobr:chiseled_dark_oak_wood_recipe",
+      "wobr:chiseled_dark_oak_wood_recipe",
+      "wobr:chiseled_spruce_wood_recipe",
+      "wobr:chiseled_jungle_wood_recipe",
+      "wobr:chiseled_acacia_wood_recipe",
+      "wobr:chiseled_birch_wood_recipe",
+      "wobr:chiseled_deadwood_wooden_slab_recipe",
+      "wobr:chiseled_dark_oak_wooden_slab_recipe",
+      "wobr:chiseled_spruce_wooden_slab_recipe",
+      "wobr:chiseled_jungle_wooden_slab_recipe",
+      "wobr:chiseled_acacia_wooden_slab_recipe",
+      "wobr:chiseled_birch_wooden_slab_recipe",
+      "wobr:oakpillarrecipe",
+      "wobr:dark_oak_pillar_recipe",
+      "wobr:spruce_pillar_recipe",
+      "wobr:jungle_pillar_recipe",
+      "wobr:acacia_pillar_recipe",
+      "wobr:birch_pillar_recipe",
+      "wobr:oak_wooden_lamp",
+      "wobr:dark_oak_wooden_lamp",
+      "wobr:spruce_wooden_lamp",
+      "wobr:jungle_wooden_lamp",
+      "wobr:acacia_wooden_lamp",
+      "wobr:birch_wooden_lamp"
     ]
   }
 }

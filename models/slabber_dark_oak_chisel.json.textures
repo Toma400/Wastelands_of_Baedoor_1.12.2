@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wood_dark_oak",
+        "1": "chisel_dark_oak"
+      },
+      "name": "default"
+    }
+  }
+}

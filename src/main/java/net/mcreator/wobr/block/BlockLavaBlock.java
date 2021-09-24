@@ -19,27 +19,27 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockLavaBlock extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:lavablock")
+	@GameRegistry.ObjectHolder("wobr:lava_block")
 	public static final Block block = null;
 	public BlockLavaBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 19);
+		super(instance, 67);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("lavablock"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("lava_block"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:lavablock", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:lava_block", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.IRON);
-			setUnlocalizedName("lavablock");
+			setUnlocalizedName("lava_block");
 			setSoundType(SoundType.METAL);
 			setHarvestLevel("pickaxe", 1);
 			setHardness(25F);

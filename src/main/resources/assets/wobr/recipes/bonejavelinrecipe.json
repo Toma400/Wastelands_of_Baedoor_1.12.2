@@ -8,23 +8,23 @@
   ],
   "key": {
     "1": {
-      "item": "wobr:crackedbone"
+      "item": "wobr:cracked_bone"
     },
     "3": {
-      "item": "wobr:crackedbone"
+      "item": "wobr:cracked_bone"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "wobr:crackedbone"
+      "item": "wobr:cracked_bone"
     },
     "7": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "wobr:bonejavelin",
+    "item": "wobr:bone_javelin",
     "count": 1
   }
 }

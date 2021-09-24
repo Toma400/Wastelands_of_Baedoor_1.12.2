@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:chiseled_spruce_wooden_slab_double"
+    }
+  }
+}

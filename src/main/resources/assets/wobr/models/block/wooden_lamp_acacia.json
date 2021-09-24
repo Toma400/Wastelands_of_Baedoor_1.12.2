@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/wood_acacia",
+    "up": "wobr:blocks/wood_acacia",
+    "north": "wobr:blocks/lamp_acacia",
+    "east": "wobr:blocks/lamp_acacia",
+    "south": "wobr:blocks/lamp_acacia",
+    "west": "wobr:blocks/lamp_acacia",
+    "particle": "wobr:blocks/wood_acacia"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "baedoor_gold_block"
+      },
+      "name": "default"
+    }
+  }
+}

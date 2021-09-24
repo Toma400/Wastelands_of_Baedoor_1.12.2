@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingGUIReset extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingGUIReset(ElementsWastelandsofBaedoor instance) {
-		super(instance, 99);
+		super(instance, 160);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -36,7 +36,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemThrowingDagger extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:throwingdagger")
+	@GameRegistry.ObjectHolder("wobr:throwing_dagger")
 	public static final Item block = null;
 	public static final int ENTITYID = 3;
 	public ItemThrowingDagger(ElementsWastelandsofBaedoor instance) {
@@ -47,14 +47,14 @@ public class ItemThrowingDagger extends ElementsWastelandsofBaedoor.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new RangedItem());
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityArrowCustom.class)
-				.id(new ResourceLocation("wobr", "entitybulletthrowingdagger"), ENTITYID).name("entitybulletthrowingdagger").tracker(64, 1, true)
+				.id(new ResourceLocation("wobr", "entitybulletthrowing_dagger"), ENTITYID).name("entitybulletthrowing_dagger").tracker(64, 1, true)
 				.build());
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:throwingdagger", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:throwing_dagger", "inventory"));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -70,8 +70,8 @@ public class ItemThrowingDagger extends ElementsWastelandsofBaedoor.ModElement {
 			super();
 			setMaxDamage(0);
 			setFull3D();
-			setUnlocalizedName("throwingdagger");
-			setRegistryName("throwingdagger");
+			setUnlocalizedName("throwing_dagger");
+			setRegistryName("throwing_dagger");
 			maxStackSize = 16;
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}

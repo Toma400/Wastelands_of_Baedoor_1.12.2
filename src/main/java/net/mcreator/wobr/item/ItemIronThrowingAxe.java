@@ -36,7 +36,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemIronThrowingAxe extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:ironthrowingaxe")
+	@GameRegistry.ObjectHolder("wobr:iron_throwing_axe")
 	public static final Item block = null;
 	public static final int ENTITYID = 13;
 	public ItemIronThrowingAxe(ElementsWastelandsofBaedoor instance) {
@@ -47,14 +47,14 @@ public class ItemIronThrowingAxe extends ElementsWastelandsofBaedoor.ModElement 
 	public void initElements() {
 		elements.items.add(() -> new RangedItem());
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityArrowCustom.class)
-				.id(new ResourceLocation("wobr", "entitybulletironthrowingaxe"), ENTITYID).name("entitybulletironthrowingaxe").tracker(64, 1, true)
-				.build());
+				.id(new ResourceLocation("wobr", "entitybulletiron_throwing_axe"), ENTITYID).name("entitybulletiron_throwing_axe")
+				.tracker(64, 1, true).build());
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:ironthrowingaxe", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:iron_throwing_axe", "inventory"));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -70,8 +70,8 @@ public class ItemIronThrowingAxe extends ElementsWastelandsofBaedoor.ModElement 
 			super();
 			setMaxDamage(0);
 			setFull3D();
-			setUnlocalizedName("ironthrowingaxe");
-			setRegistryName("ironthrowingaxe");
+			setUnlocalizedName("iron_throwing_axe");
+			setRegistryName("iron_throwing_axe");
 			maxStackSize = 8;
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}

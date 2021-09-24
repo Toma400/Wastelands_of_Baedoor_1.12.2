@@ -1,0 +1,25 @@
+{
+  "group": "wooden_slabs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "atum:palm_log",
+      "data": 0
+    },
+    "1": {
+      "item": "atum:palm_log",
+      "data": 0
+    },
+    "2": {
+      "item": "atum:palm_log",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "wobr:mimic_palm_slab",
+    "count": 4
+  }
+}

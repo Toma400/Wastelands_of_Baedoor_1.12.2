@@ -24,10 +24,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemSandDust extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:sanddust")
+	@GameRegistry.ObjectHolder("wobr:sand_dust")
 	public static final Item block = null;
 	public ItemSandDust(ElementsWastelandsofBaedoor instance) {
-		super(instance, 26);
+		super(instance, 74);
 	}
 
 	@Override
@@ -38,14 +38,14 @@ public class ItemSandDust extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:sanddust", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:sand_dust", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("sanddust");
-			setRegistryName("sanddust");
+			setUnlocalizedName("sand_dust");
+			setRegistryName("sand_dust");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

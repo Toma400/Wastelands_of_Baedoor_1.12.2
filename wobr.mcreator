@@ -1,13 +1,13 @@
 {
   "id_map": {
     "ENTITY": 13,
-    "GUI": 6
+    "GUI": 8
   },
   "mod_elements": [
     {
       "name": "WastelandsofBaedoor",
       "type": "tab",
-      "sortid": 33,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -15,26 +15,29 @@
     {
       "name": "FirearmLock",
       "type": "item",
-      "sortid": 27,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "firearm_lock"
     },
     {
       "name": "SmallGrip",
       "type": "item",
-      "sortid": 28,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "small_grip"
     },
     {
       "name": "ShortBarrel",
       "type": "item",
-      "sortid": 29,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "short_barrel"
     },
     {
       "name": "HandmadeRevolver",
@@ -42,12 +45,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "handmade_revolver"
     },
     {
       "name": "FirearmLockRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -55,7 +59,7 @@
     {
       "name": "SmallGripRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -63,7 +67,7 @@
     {
       "name": "ShortBarrelRecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -71,7 +75,7 @@
     {
       "name": "HandmadeRevolverRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -79,7 +83,7 @@
     {
       "name": "ReloadHandmadeRevolver",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +107,7 @@
     {
       "name": "ReloadCheck",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -127,7 +131,7 @@
     {
       "name": "ReloadScoreCheck",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -151,7 +155,7 @@
     {
       "name": "BulletRanged",
       "type": "gun",
-      "sortid": 41,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -161,7 +165,7 @@
     {
       "name": "ShotHandmadeRevolver",
       "type": "procedure",
-      "sortid": 42,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -197,7 +201,7 @@
     {
       "name": "ReloadScore",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -213,7 +217,7 @@
     {
       "name": "ReloadKey",
       "type": "keybind",
-      "sortid": 44,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -221,7 +225,7 @@
     {
       "name": "GunStatistics",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -237,7 +241,7 @@
     {
       "name": "FirearmType",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +257,7 @@
     {
       "name": "FirearmExperience",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -269,7 +273,7 @@
     {
       "name": "FirearmJamming",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +293,7 @@
     {
       "name": "Firearm_Experience_2",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -305,7 +309,7 @@
     {
       "name": "FirearmAccuracy",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -321,7 +325,7 @@
     {
       "name": "Firearms",
       "type": "tag",
-      "sortid": 51,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -329,7 +333,7 @@
     {
       "name": "AmmoBoxes",
       "type": "tag",
-      "sortid": 52,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -337,7 +341,7 @@
     {
       "name": "Revolvers",
       "type": "tag",
-      "sortid": 53,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -345,7 +349,7 @@
     {
       "name": "Shotguns",
       "type": "tag",
-      "sortid": 54,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -353,7 +357,7 @@
     {
       "name": "Rifles",
       "type": "tag",
-      "sortid": 55,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -361,7 +365,7 @@
     {
       "name": "FireamsHandmade",
       "type": "tag",
-      "sortid": 56,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -369,7 +373,7 @@
     {
       "name": "FirearmsScheme",
       "type": "tag",
-      "sortid": 57,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -377,15 +381,16 @@
     {
       "name": "CrackedBone",
       "type": "item",
-      "sortid": 30,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "cracked_bone"
     },
     {
       "name": "CrackedBoneRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -393,7 +398,7 @@
     {
       "name": "ThrowingDaggerProjectile",
       "type": "gun",
-      "sortid": 59,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -408,12 +413,13 @@
       "locked_code": false,
       "ids": {
         "0": 3
-      }
+      },
+      "registry_name": "throwing_dagger"
     },
     {
       "name": "ThrowingDaggerRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -421,7 +427,7 @@
     {
       "name": "ThrowingDaggerInventory",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -441,7 +447,7 @@
     {
       "name": "ThrowingDaggerCollision",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -469,7 +475,7 @@
     {
       "name": "ProjectileBullet",
       "type": "item",
-      "sortid": 63,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -477,7 +483,7 @@
     {
       "name": "WanderingTraderGUI",
       "type": "gui",
-      "sortid": 64,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -487,7 +493,7 @@
     {
       "name": "JavelinInventory",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -507,7 +513,7 @@
     {
       "name": "Bone_Javelin_Collision",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -535,7 +541,7 @@
     {
       "name": "Stone_Javelin_Collision",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -563,7 +569,7 @@
     {
       "name": "JavelinSlowness",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -584,7 +590,8 @@
       "locked_code": false,
       "ids": {
         "0": 4
-      }
+      },
+      "registry_name": "bone_javelin"
     },
     {
       "name": "Stone_Javelin",
@@ -599,7 +606,7 @@
     {
       "name": "BoneJavelinRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -607,7 +614,7 @@
     {
       "name": "Stone_Javelin_Recipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -618,12 +625,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "javelin_sack"
     },
     {
       "name": "JavelinSackRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -647,7 +655,7 @@
     {
       "name": "Javelin_Sack_Bone_Recipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -655,7 +663,7 @@
     {
       "name": "Javelin_Sack_Stone_Recipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -663,7 +671,7 @@
     {
       "name": "JavelinSackUnpack",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -679,7 +687,7 @@
     {
       "name": "WanderingTrades",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -695,7 +703,7 @@
     {
       "name": "MushroomPoisonArrow",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -711,23 +719,25 @@
     {
       "name": "MushroomPoison",
       "type": "item",
-      "sortid": 22,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "mushroom_poison"
     },
     {
       "name": "MushroomPoisonBlock",
       "type": "block",
-      "sortid": 21,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "mushroom_poison_block"
     },
     {
       "name": "MushroomPoisonRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -735,7 +745,7 @@
     {
       "name": "MushroomPoisonBlockRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -743,7 +753,7 @@
     {
       "name": "Mushroom_Poison_Block_UnRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -751,7 +761,7 @@
     {
       "name": "FirearmInfo",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -777,7 +787,7 @@
     {
       "name": "Poisoned_Throwing_Dagger_Collision",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -805,7 +815,7 @@
     {
       "name": "MushroomPoisoning",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -821,7 +831,7 @@
     {
       "name": "PoisonedThrowingDaggerRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -829,7 +839,7 @@
     {
       "name": "Arrowing",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -849,7 +859,7 @@
     {
       "name": "Reveal",
       "type": "achievement",
-      "sortid": 85,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -857,7 +867,7 @@
     {
       "name": "RevealAchievement",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -873,7 +883,7 @@
     {
       "name": "FermentedSpiderEyeRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -881,7 +891,7 @@
     {
       "name": "DispenserRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -889,15 +899,16 @@
     {
       "name": "NetherSoulEssence",
       "type": "item",
-      "sortid": 31,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "nether_soul_essence"
     },
     {
       "name": "NetherSoulEssenceDrop",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -932,12 +943,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "lava_ingot"
     },
     {
       "name": "LavaIngotRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -945,15 +957,16 @@
     {
       "name": "LavaBlock",
       "type": "block",
-      "sortid": 19,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "lava_block"
     },
     {
       "name": "Lava_Block_Cracked",
       "type": "block",
-      "sortid": 20,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -961,7 +974,7 @@
     {
       "name": "LavaBlockRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -969,7 +982,7 @@
     {
       "name": "LavaBlockUnrecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -977,7 +990,7 @@
     {
       "name": "LavaBlockCrackedRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -985,15 +998,16 @@
     {
       "name": "ChiseledRedNetherBricks",
       "type": "block",
-      "sortid": 18,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "chiseled_red_nether_bricks"
     },
     {
       "name": "ChiseledRedNetherBricksRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1001,15 +1015,16 @@
     {
       "name": "CharcoalBlock",
       "type": "block",
-      "sortid": 13,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "charcoal_block"
     },
     {
       "name": "CharcoalBlockRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1017,7 +1032,7 @@
     {
       "name": "CharcoalBlockUnrecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1025,23 +1040,16 @@
     {
       "name": "FirearmTable",
       "type": "block",
-      "sortid": 14,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FirearmTableRecipe",
-      "type": "recipe",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "firearm_table"
     },
     {
       "name": "WanderingMerchant",
       "type": "mob",
-      "sortid": 32,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1052,7 +1060,7 @@
     {
       "name": "WanderingGUI",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1084,7 +1092,7 @@
     {
       "name": "WanderingGUIReset",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1100,7 +1108,7 @@
     {
       "name": "WanderingSpawn",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1128,7 +1136,7 @@
     {
       "name": "WanderingDespawn",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1148,7 +1156,7 @@
     {
       "name": "MerchantDeath",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1164,10 +1172,11 @@
     {
       "name": "GlowingObsidian",
       "type": "block",
-      "sortid": 15,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "glowing_obsidian"
     },
     {
       "name": "BoneThrowingAxe",
@@ -1177,7 +1186,8 @@
       "locked_code": false,
       "ids": {
         "0": 11
-      }
+      },
+      "registry_name": "bone_throwing_axe"
     },
     {
       "name": "StoneThrowingAxe",
@@ -1187,7 +1197,8 @@
       "locked_code": false,
       "ids": {
         "0": 12
-      }
+      },
+      "registry_name": "stone_throwing_axe"
     },
     {
       "name": "IronThrowingAxe",
@@ -1197,12 +1208,13 @@
       "locked_code": false,
       "ids": {
         "0": 13
-      }
+      },
+      "registry_name": "iron_throwing_axe"
     },
     {
       "name": "ThrowingAxeBounceBone",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1230,7 +1242,7 @@
     {
       "name": "Throwing_Axe_Bounce_Stone",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1258,7 +1270,7 @@
     {
       "name": "Throwing_Axe_Bounce_Iron",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1286,7 +1298,7 @@
     {
       "name": "Throwing_Axe_Inventory",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1306,15 +1318,16 @@
     {
       "name": "NetherAvoiderInactive",
       "type": "block",
-      "sortid": 16,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "nether_avoider_inactive"
     },
     {
       "name": "Nether_Avoider_Active",
       "type": "block",
-      "sortid": 107,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1322,7 +1335,7 @@
     {
       "name": "NetherAvoiderSwitch",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1350,7 +1363,7 @@
     {
       "name": "NetherAvoiderActive",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1378,7 +1391,7 @@
     {
       "name": "NetherAvoiderPulsating",
       "type": "potion",
-      "sortid": 110,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1386,7 +1399,7 @@
     {
       "name": "NetherAvoiderShield",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1414,7 +1427,7 @@
     {
       "name": "NetherAvoiderTagKill",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1446,7 +1459,7 @@
     {
       "name": "NetherAvoiderRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1454,7 +1467,7 @@
     {
       "name": "Nether_Avoider_Shield_Potion",
       "type": "potion",
-      "sortid": 114,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1462,7 +1475,7 @@
     {
       "name": "NetherAvoiderShieldActivate",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1478,7 +1491,7 @@
     {
       "name": "NetherAvoiderNBTTeam",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1494,7 +1507,7 @@
     {
       "name": "ReaperingSwitcher",
       "type": "command",
-      "sortid": 117,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1502,7 +1515,7 @@
     {
       "name": "Reapering_Checker",
       "type": "command",
-      "sortid": 118,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1510,7 +1523,7 @@
     {
       "name": "ComReaperingSwitch",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1530,7 +1543,7 @@
     {
       "name": "Com_Reapering_Check",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1550,7 +1563,7 @@
     {
       "name": "NetherSaverRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1558,7 +1571,7 @@
     {
       "name": "Wandering_Trader_GUI_2",
       "type": "gui",
-      "sortid": 122,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1568,43 +1581,7 @@
     {
       "name": "Nether_Shielder",
       "type": "block",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "GlowingObsidianRecipe",
-      "type": "recipe",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Com_Merchant_Switch",
-      "type": "procedure",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Merchable_Switch",
-      "type": "command",
-      "sortid": 125,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1612,7 +1589,7 @@
     {
       "name": "GlobalGrowth",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1623,23 +1600,25 @@
     {
       "name": "SandDust",
       "type": "item",
-      "sortid": 26,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "sand_dust"
     },
     {
       "name": "SandyVeilPlant",
       "type": "plant",
-      "sortid": 127,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "sandy_veil_plant"
     },
     {
       "name": "Sandy_Veil",
       "type": "plant",
-      "sortid": 25,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1647,7 +1626,7 @@
     {
       "name": "Vulcanic_Veil_Plant",
       "type": "plant",
-      "sortid": 128,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1655,7 +1634,7 @@
     {
       "name": "Ash_Dust",
       "type": "item",
-      "sortid": 24,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1663,7 +1642,7 @@
     {
       "name": "Vulcanic_Veil",
       "type": "plant",
-      "sortid": 23,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1671,7 +1650,7 @@
     {
       "name": "SandyVeilRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1679,7 +1658,7 @@
     {
       "name": "Vulcanic_Veil_Recipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1687,7 +1666,7 @@
     {
       "name": "SandyVeilPlanting",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1719,7 +1698,7 @@
     {
       "name": "Vulcanic_Veil_Planting",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1751,7 +1730,7 @@
     {
       "name": "SandyVeilGrowth",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1779,7 +1758,7 @@
     {
       "name": "Vulcanic_Veil_Growth",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1807,15 +1786,16 @@
     {
       "name": "VulcanicSand",
       "type": "block",
-      "sortid": 135,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "vulcanic_sand"
     },
     {
       "name": "BlackSandRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1823,7 +1803,7 @@
     {
       "name": "Bonemealing",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1859,15 +1839,818 @@
     {
       "name": "SoulSandRenewability",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "GlowstoneGeneration",
+      "name": "SandyVeil",
+      "type": "tag",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CutBone",
+      "type": "tag",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WanderingTraderAlternativeGUI",
+      "type": "gui",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      }
+    },
+    {
+      "name": "WanderingTradeGlowingObsidian",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WanderingTradeSandVeil",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WanderingTradeVulcanicVeil",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WanderingTradeFirearmTable",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OakWoodenSlab",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_wooden_slab"
+    },
+    {
+      "name": "Oak_Wooden_Stairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Oak_Wood",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Oak_Wooden_Slab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Oak",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Oak",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Wooden_Slab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Wooden_Stairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Dark_Oak_Wood",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Dark_Oak_Wooden_Slab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Dark_Oak",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Dark_Oak",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Wooden_Slab",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Wooden_Stairs",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Spruce_Wood",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Spruce_Wooden_Slab",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Spruce",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Spruce",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SandRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Wooden_Slab",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Wooden_Stairs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Jungle_Wood",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Jungle_Wooden_Slab",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Jungle",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Jungle",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Wooden_Slab",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Wooden_Stairs",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Acacia_Wood",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Acacia_Wooden_Slab",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Acacia",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Acacia",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Wooden_Slab",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Wooden_Stairs",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Birch_Wood",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Birch_Wooden_Slab",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Birch",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Birch",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OakWoodenSlabRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OakWoodenStairsRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChiseledOakWoodRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Dark_Oak_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Spruce_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Jungle_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Acacia_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Birch_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChiseledOakWoodenSlabRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Dark_Oak_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Spruce_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Jungle_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Acacia_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Birch_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OakPillarRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Oak_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dark_Oak_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spruce_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Jungle_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Acacia_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Birch_Wooden_Lamp",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringAsh",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_ash"
+    },
+    {
+      "name": "GlisteringAshDrop",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WastelandsIntegrations",
+      "type": "tab",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PaleGoldIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pale_gold_ingot"
+    },
+    {
+      "name": "PaleGoldIngotRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_gold_ingot"
+    },
+    {
+      "name": "BaedoorGoldIngotRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PaleGoldIngotDisappearing",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenFluidConverterTank",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_fluid_converter_tank"
+    },
+    {
+      "name": "Golden_Fluid_Converter_Active",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FluidTankHeaterRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FluidConverterStates",
+      "type": "procedure",
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1893,9 +2676,678 @@
       }
     },
     {
-      "name": "SandyVeil",
-      "type": "tag",
-      "sortid": 140,
+      "name": "FluidConverterAdding",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluidConverterRemoval",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fluid_Converter_Water_Converting",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaedoorFuntBlockPolished",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_polished"
+    },
+    {
+      "name": "BaedoorFuntBlockSlab",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_slab"
+    },
+    {
+      "name": "BaedoorFuntBlockStairs",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_stairs"
+    },
+    {
+      "name": "BaedoorFuntBlockWall",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_wall"
+    },
+    {
+      "name": "BaedoorFuntBlockChiseled",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_chiseled"
+    },
+    {
+      "name": "BaedoorFuntBlockPillar",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_pillar"
+    },
+    {
+      "name": "BaedoorFuntBlockTrapdoor",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_trapdoor"
+    },
+    {
+      "name": "BaedoorFuntBlockLamp",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baedoor_funt_block_lamp"
+    },
+    {
+      "name": "BaedoorGoldBlockRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldBlockUnRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WanderingTradeGlisteringAsh",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WanderingTradeBaedoorGoldIngot",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaedoorGoldenSlabRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenStairsRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenWallRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenChiselRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenPillarRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaedoorGoldenLampRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SandyWater",
+      "type": "fluid",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SandyWaterCollision",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SandyWaterGen",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AddOnAtumDeadwood",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Wooden_Slab",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Wooden_Stairs",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Deadwood_Wood",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Deadwood_Wooden_Slab",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Deadwood",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Deadwood",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Wooden_Stairs",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Palm_Wood",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Palm_Wooden_Slab",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Pillar_Palm",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Wooden_Lamp_Palm",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Wooden_Slab",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Wooden_Stairs_Recipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Deadwood_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Palm_Wood_Recipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Deadwood_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chiseled_Palm_Wooden_Slab_Recipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Pillar_Recipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Deadwood_Wooden_Lamp_Recipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Palm_Wooden_Lamp_Recipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SlabBugfix",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MimicGoldSlab",
+      "type": "item",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Oak_Slab",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Oak_Slab_Chisel",
+      "type": "item",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Dark_Oak_Slab",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mimic_dark_oak_slab"
+    },
+    {
+      "name": "Mimic_Dark_Oak_Slab_Chisel",
+      "type": "item",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Spruce_Slab",
+      "type": "item",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Spruce_Slab_Chisel",
+      "type": "item",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Jungle_Slab",
+      "type": "item",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Jungle_Slab_Chisel",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Acacia_Slab",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Acacia_Slab_Chisel",
+      "type": "item",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Birch_Slab",
+      "type": "item",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Birch_Slab_Chisel",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Deadwood_Slab",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Deadwood_Slab_Chisel",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Palm_Slab",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mimic_Palm_Slab_Chisel",
+      "type": "item",
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1912,12 +3364,6 @@
       "name": "Reapering",
       "type": "logic",
       "scope": "world",
-      "value": "false"
-    },
-    {
-      "name": "Merchable",
-      "type": "logic",
-      "scope": "map",
       "value": "false"
     },
     {
@@ -1951,73 +3397,153 @@
   ],
   "language_map": {
     "en_us": {
-      "item.javelin_sack_bone.name": "Javelin Sack (with Bone Javelins)",
+      "tile.baedoor_funt_block_slab.name": "Baedoor Golden Slab",
+      "tile.baedoor_funt_block_lamp.name": "Baedoor Golden Lamp",
+      "item.firearm_lock.name": "Firearm Lock",
       "potion.effect.netheravoiderpulsating": "Nether Avoider Pulsating",
-      "key.mcreator.reloadkey": "Reload Key",
+      "tile.chiseled_jungle_wood.name": "Chiseled Jungle Wood",
+      "tile.palm_wooden_stairs.name": "Palm Wooden Stairs",
       "splash_potion.effect.netheravoiderpulsating": "Splash Nether Avoider Pulsating",
-      "item.lavaingot.name": "Lava Ingot",
-      "item.nethersoulessence.name": "Nether Soul Essence",
+      "tile.birch_wooden_slab.name": "Birch Wooden Slab",
       "item.wobr.smallgrip": "Small Grip",
-      "item.firearmlock.name": "Firearm Lock",
-      "tile.lavablock.name": "Block of Lava",
+      "item.bone_javelin.name": "Bone Javelin",
       "item.poisoned_throwing_dagger.name": "Throwing Dagger",
-      "effect.nether_avoider_shield_potion": "Nether Avoider Shield",
-      "tipped_arrow.effect.nether_avoider_shield_potion": "Arrow of Nether Avoider Shield",
-      "splash_potion.effect.nether_avoider_shield_potion": "Splash Nether Avoider Shield",
-      "lingering_potion.effect.nether_avoider_shield_potion": "Lingering Nether Avoider Shield",
-      "lingering_potion.effect.netheravoiderpulsating": "Lingering Nether Avoider Pulsating",
-      "tile.sandyveilplant.name": "Sandy Veil Plant",
-      "item.handmaderevolver.name": "Handmade Revolver",
-      "tile.netheravoiderinactive.name": "Nether Avoider",
+      "tile.jungle_wooden_slab.name": "Jungle Wooden Slab",
+      "tile.pillar_deadwood.name": "Deadwood Pillar",
+      "tile.jungle_wooden_stairs.name": "Jungle Wooden Stairs",
+      "tile.baedoor_funt_block_wall.name": "Baedoor Golden Wall",
+      "tile.glowing_obsidian.name": "Glowing Obsidian",
+      "item.mimic_deadwood_slab_chisel.name": "Chiseled Deadwood Wooden Slab",
+      "tile.chiseled_jungle_wooden_slab.name": "Chiseled Jungle Wooden Slab",
+      "tile.wooden_lamp_spruce.name": "Spruce Wooden Lamp",
       "tile.sandy_veil.name": "Sandy Veil",
-      "item.stone_javelin.name": "Stone Javelin",
+      "item.throwing_dagger.name": "Throwing Dagger",
       "tile.vulcanic_veil_plant.name": "Sandy Veil Plant",
-      "item.sanddust.name": "Sand Dust",
-      "effect.netheravoiderpulsating": "Nether Avoider Pulsating",
-      "tile.charcoalblock.name": "Charcoal Block",
+      "tile.birch_wooden_stairs.name": "Birch Wooden Stairs",
       "tipped_arrow.effect.netheravoiderpulsating": "Arrow of Nether Avoider Pulsating",
       "advancements.reveal.descr": "You entered the world of Wastelands of Baedoor...",
+      "tile.chiseled_deadwood_wood.name": "Chiseled Deadwood Wood",
+      "item.nether_soul_essence.name": "Nether Soul Essence",
       "item.wobr.handmaderevolver": "Handmade Revolver",
-      "tile.vulcanic_veil.name": "Vulcanic Veil",
+      "tile.chiseled_dark_oak_wood.name": "Chiseled Dark Oak Wood",
+      "tile.chiseled_birch_wooden_slab.name": "Chiseled Birch Wooden Slab",
+      "item.mimic_acacia_slab.name": "Spruce Wooden Slab",
+      "tile.wooden_lamp_palm.name": "Palm Wooden Lamp",
+      "tile.sandy_veil_plant.name": "Sandy Veil Plant",
       "entity.wanderingmerchant.name": "Wandering Merchant",
-      "tile.mushroompoisonblock.name": "Block of Mushroom Poison",
-      "item.bonethrowingaxe.name": "Bone Throwing Axe",
-      "item.shortbarrel.name": "Short Barrel",
+      "tile.chiseled_oak_wooden_slab.name": "Chiseled Oak Wooden Slab",
+      "item.mimic_oak_slab_chisel.name": "Chiseled Oak Wooden Slab",
+      "tile.firearm_table.name": "Firearm Table",
+      "tile.golden_fluid_converter_active.name": "Fluid Tank Heater",
+      "tile.charcoal_block.name": "Charcoal Block",
+      "tile.dark_oak_wooden_stairs.name": "Dark Oak Wooden Stairs",
+      "tile.chiseled_palm_wood.name": "Chiseled Palm Wood",
+      "tile.chiseled_palm_wooden_slab.name": "Chiseled Palm Wooden Slab",
+      "tile.baedoor_funt_block_chiseled.name": "Chiseled Block of Baedoor Gold",
+      "item.stone_throwing_axe.name": "Stone Throwing Axe",
+      "tile.spruce_wooden_slab.name": "Spruce Wooden Slab",
+      "tile.pillar_birch.name": "Birch Pillar",
+      "item.bulletranged.name": "Bullet Ranged",
+      "item.mimic_acacia_slab_chisel.name": "Chiseled Spruce Wooden Slab",
+      "tile.wooden_lamp_deadwood.name": "Deadwood Wooden Lamp",
+      "tile.dark_oak_wooden_slab.name": "Dark Oak Wooden Slab",
+      "advancements.reveal.title": "Reveal",
+      "item.mimic_spruce_slab_chisel.name": "Chiseled Spruce Wooden Slab",
+      "item.baedoor_gold_ingot.name": "Baedoor Gold Ingot",
+      "item.projectilebullet.name": "Projectile Bullet",
+      "tile.pillar_dark_oak.name": "Dark Oak Pillar",
+      "item.mushroom_poison.name": "Mushroom Poison",
+      "tile.vulcanic_sand.name": "Vulcanic Sand",
+      "tile.chiseled_red_nether_bricks.name": "Chiseled Red Nether Bricks",
+      "item.throwingdaggerprojectile.name": "Throwing Dagger Projectile",
+      "item.handmade_revolver.name": "Handmade Revolver",
+      "tile.pillar_jungle.name": "Jungle Pillar",
+      "tile.chiseled_deadwood_wooden_slab.name": "Chiseled Deadwood Wooden Slab",
+      "item.mimic_jungle_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
+      "tile.pillar_spruce.name": "Spruce Pillar",
+      "item.wobr.shortbarrel": "Short Barrel",
+      "fluid.sandywater": "SandyWater",
+      "tile.nether_avoider_inactive.name": "Nether Avoider",
+      "item.javelin_sack_bone.name": "Javelin Sack (with Bone Javelins)",
+      "key.mcreator.reloadkey": "Reload Key",
+      "item.small_grip.name": "Small Grip",
+      "item.javelin_sack.name": "Javelin Sack",
+      "tile.chiseled_spruce_wood.name": "Chiseled Spruce Wood",
+      "tile.acacia_wooden_slab.name": "Acacia Wooden Slab",
+      "item.mimic_birch_slab_chisel.name": "Chiseled Birch Wooden Slab",
+      "effect.nether_avoider_shield_potion": "Nether Avoider Shield",
+      "tile.baedoor_funt_block_polished.name": "Block of Baedoor Gold",
+      "tipped_arrow.effect.nether_avoider_shield_potion": "Arrow of Nether Avoider Shield",
+      "splash_potion.effect.nether_avoider_shield_potion": "Splash Nether Avoider Shield",
+      "tile.mushroom_poison_block.name": "Block of Mushroom Poison",
+      "item.mimic_palm_slab.name": "Palm Wooden Slab",
+      "lingering_potion.effect.nether_avoider_shield_potion": "Lingering Nether Avoider Shield",
+      "item.mimicgoldslab.name": "Baedoor Golden Slab",
+      "tile.spruce_wooden_stairs.name": "Spruce Wooden Stairs",
+      "lingering_potion.effect.netheravoiderpulsating": "Lingering Nether Avoider Pulsating",
+      "tile.wooden_lamp_acacia.name": "Acacia Wooden Lamp",
+      "item.bone_throwing_axe.name": "Bone Throwing Axe",
+      "tile.palm_wooden_slab.name": "Palm Wooden Slab",
+      "item.stone_javelin.name": "Stone Javelin",
+      "tile.wooden_lamp_jungle.name": "Jungle Wooden Lamp",
+      "effect.netheravoiderpulsating": "Nether Avoider Pulsating",
+      "tile.pillar_oak.name": "Oak Pillar",
+      "item.iron_throwing_axe.name": "Iron Throwing Axe",
+      "tile.wooden_lamp_dark_oak.name": "Dark Oak Wooden Lamp",
+      "tile.wooden_lamp_birch.name": "Birch Wooden Lamp",
+      "tile.vulcanic_veil.name": "Vulcanic Veil",
+      "tile.chiseled_spruce_wooden_slab.name": "Chiseled Spruce Wooden Slab",
+      "tile.chiseled_acacia_wooden_slab.name": "Chiseled Acacia Wooden Slab",
+      "item.mimic_dark_oak_slab.name": "Dark Oak Wooden Slab",
+      "itemGroup.tabwastelandsintegrations": "Wastelands Integrations",
+      "tile.deadwood_wooden_slab.name": "Deadwood Wooden Slab",
+      "item.mimic_deadwood_slab.name": "Deadwood Wooden Slab",
+      "item.mimic_palm_slab_chisel.name": "Chiseled Palm Wooden Slab",
+      "tile.chiseled_birch_wood.name": "Chiseled Birch Wood",
+      "item.mimic_oak_slab.name": "Oak Wooden Slab",
       "tile.nether_avoider_active.name": "Nether Avoider",
       "tile.lava_block_cracked.name": "Cracked Block of Lava",
-      "item.throwingdagger.name": "Throwing Dagger",
+      "tile.chiseled_dark_oak_wooden_slab.name": "Chiseled Dark Oak Wooden Slab",
+      "item.lava_ingot.name": "Lava Ingot",
       "item.wobr.bulletranged": "Bullet Ranged",
       "item.javelin_sack_stone.name": "Javelin Sack (with Stone Javelins)",
-      "tile.firearmtable.name": "Firearm Table",
+      "tile.baedoor_funt_block_stairs.name": "Baedoor Golden Stairs",
+      "tile.acacia_wooden_stairs.name": "Acacia Wooden Stairs",
       "item.wobr.firearmlock": "Firearm Lock",
-      "tile.glowingobsidian.name": "Glowing Obsidian",
+      "item.mimic_birch_slab.name": "Birch Wooden Slab",
+      "item.pale_gold_ingot.name": "Pale Gold Ingot",
+      "item.mimic_jungle_slab.name": "Dark Oak Wooden Slab",
+      "tile.golden_fluid_converter_tank.name": "Fluid Tank Heater",
       "item.ash_dust.name": "Sand Dust",
-      "item.bulletranged.name": "Bullet Ranged",
+      "item.mimic_spruce_slab.name": "Spruce Wooden Slab",
       "tile.nether_shielder.name": "Nether Shielder",
-      "advancements.reveal.title": "Reveal",
-      "item.smallgrip.name": "Small Grip",
-      "item.javelinsack.name": "Javelin Sack",
+      "tile.chiseled_acacia_wood.name": "Chiseled Acacia Wood",
+      "tile.deadwood_wooden_stairs.name": "Deadwood Wooden Stairs",
+      "tile.oak_wooden_stairs.name": "Oak Wooden Stairs",
+      "tile.pillar_palm.name": "Palm Pillar",
+      "tile.wooden_lamp_oak.name": "Oak Wooden Lamp",
       "potion.effect.nether_avoider_shield_potion": "Nether Avoider Shield",
-      "item.projectilebullet.name": "Projectile Bullet",
-      "tile.chiseledrednetherbricks.name": "Chiseled Red Nether Bricks",
-      "item.mushroompoison.name": "Mushroom Poison",
-      "item.throwingdaggerprojectile.name": "Throwing Dagger Projectile",
-      "item.ironthrowingaxe.name": "Iron Throwing Axe",
-      "item.stonethrowingaxe.name": "Stone Throwing Axe",
-      "item.crackedbone.name": "Cracked Bone",
-      "tile.vulcanicsand.name": "Vulcanic Sand",
+      "tile.chiseled_oak_wood.name": "Chiseled Oak Wood",
+      "item.cracked_bone.name": "Cracked Bone",
+      "tile.baedoor_funt_block_trapdoor.name": "Baedoor Golden Trapdoor",
+      "tile.lava_block.name": "Block of Lava",
+      "tile.pillar_acacia.name": "Acacia Pillar",
+      "tile.baedoor_funt_block_pillar.name": "Baedoor Golden Pillar",
+      "item.short_barrel.name": "Short Barrel",
+      "item.mimic_dark_oak_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
+      "tile.oak_wooden_slab.name": "Oak Wooden Slab",
       "itemGroup.tabwastelandsofbaedoor": "Wastelands of Baedoor",
-      "item.wobr.shortbarrel": "Short Barrel",
-      "item.bonejavelin.name": "Bone Javelin"
+      "item.sand_dust.name": "Sand Dust",
+      "item.glistering_ash.name": "Glistering Ash"
     }
   },
   "workspaceSettings": {
     "modid": "wobr",
     "modName": "[1.12] Wastelands of Baedoor",
-    "version": "12v0.a3",
+    "version": "12v0.a5",
     "description": "1.12.2 port of Wastelands of Baedoor mod, adding steampunk universe into Minecraft, as well as firearms and a lot of vanilla-expansion features. Port development is separate, meaning versions will have different changelogs (but aiming for future parity as much as possible).",
     "author": "Toma400",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/wastelands-of-baedoor",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "wob_logo",

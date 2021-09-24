@@ -17,7 +17,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureMushroomPoisonArrow extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureMushroomPoisonArrow(ElementsWastelandsofBaedoor instance) {
-		super(instance, 76);
+		super(instance, 138);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

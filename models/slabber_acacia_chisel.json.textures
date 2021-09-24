@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wood_acacia",
+        "1": "chisel_acacia"
+      },
+      "name": "default"
+    }
+  }
+}

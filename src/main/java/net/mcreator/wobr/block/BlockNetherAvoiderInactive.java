@@ -27,15 +27,15 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockNetherAvoiderInactive extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:netheravoiderinactive")
+	@GameRegistry.ObjectHolder("wobr:nether_avoider_inactive")
 	public static final Block block = null;
 	public BlockNetherAvoiderInactive(ElementsWastelandsofBaedoor instance) {
-		super(instance, 16);
+		super(instance, 64);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("netheravoiderinactive"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("nether_avoider_inactive"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -43,12 +43,12 @@ public class BlockNetherAvoiderInactive extends ElementsWastelandsofBaedoor.ModE
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("wobr:netheravoiderinactive", "inventory"));
+				new ModelResourceLocation("wobr:nether_avoider_inactive", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("netheravoiderinactive");
+			setUnlocalizedName("nether_avoider_inactive");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 3);
 			setHardness(50F);

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/baedoor_gold_pillar_top",
+    "up": "wobr:blocks/baedoor_gold_pillar_top",
+    "north": "wobr:blocks/baedoor_gold_pillar",
+    "east": "wobr:blocks/baedoor_gold_pillar",
+    "south": "wobr:blocks/baedoor_gold_pillar",
+    "west": "wobr:blocks/baedoor_gold_pillar",
+    "particle": "wobr:blocks/baedoor_gold_pillar_top"
+  }
+}

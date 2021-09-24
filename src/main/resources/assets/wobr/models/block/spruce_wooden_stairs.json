@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "wobr:blocks/wood_spruce",
+    "top": "wobr:blocks/wood_spruce",
+    "side": "wobr:blocks/wood_spruce"
+  }
+}

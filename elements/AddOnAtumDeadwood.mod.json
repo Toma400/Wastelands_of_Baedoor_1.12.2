@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "deadwood",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherSoulEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherSoulEssence"
+      },
+      {
+        "value": "CUSTOM:Pillar_Oak"
+      },
+      {
+        "value": "CUSTOM:NetherSoulEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherSoulEssence"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Wooden_Lamp_Oak"
+    },
+    "name": "addonatumdeadwood",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 2,
+    "group": "baedoor_golden_chisel",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "CUSTOM:BaedoorFuntBlockPolished"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BaedoorFuntBlockChiseled"
+    },
+    "name": "baedoorgoldenchiselrecipe",
+    "namespace": "mod"
+  }
+}

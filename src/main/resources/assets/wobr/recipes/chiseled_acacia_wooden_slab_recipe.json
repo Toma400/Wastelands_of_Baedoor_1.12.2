@@ -1,0 +1,22 @@
+{
+  "group": "chiseled_slabs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:chiseled_acacia_wood"
+    },
+    "1": {
+      "item": "wobr:chiseled_acacia_wood"
+    },
+    "2": {
+      "item": "wobr:chiseled_acacia_wood"
+    }
+  },
+  "result": {
+    "item": "wobr:mimic_acacia_slab_chisel",
+    "count": 6
+  }
+}

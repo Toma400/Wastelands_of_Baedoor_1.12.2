@@ -27,7 +27,7 @@ public class ItemAsh_Dust extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:ash_dust")
 	public static final Item block = null;
 	public ItemAsh_Dust(ElementsWastelandsofBaedoor instance) {
-		super(instance, 24);
+		super(instance, 72);
 	}
 
 	@Override

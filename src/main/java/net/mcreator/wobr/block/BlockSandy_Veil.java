@@ -32,7 +32,7 @@ public class BlockSandy_Veil extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:sandy_veil")
 	public static final Block block = null;
 	public BlockSandy_Veil(ElementsWastelandsofBaedoor instance) {
-		super(instance, 25);
+		super(instance, 73);
 	}
 
 	@Override

@@ -1,0 +1,47 @@
+{
+  "group": "chiseled_wood",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "1": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "2": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "3": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "5": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "6": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "7": {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    "8": {
+      "item": "minecraft:log",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "wobr:chiseled_spruce_wood",
+    "count": 8
+  }
+}

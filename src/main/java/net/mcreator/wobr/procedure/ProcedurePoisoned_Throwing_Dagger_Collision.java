@@ -10,7 +10,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedurePoisoned_Throwing_Dagger_Collision extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedurePoisoned_Throwing_Dagger_Collision(ElementsWastelandsofBaedoor instance) {
-		super(instance, 81);
+		super(instance, 143);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

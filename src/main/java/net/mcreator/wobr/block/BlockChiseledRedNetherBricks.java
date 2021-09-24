@@ -19,15 +19,15 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockChiseledRedNetherBricks extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:chiseledrednetherbricks")
+	@GameRegistry.ObjectHolder("wobr:chiseled_red_nether_bricks")
 	public static final Block block = null;
 	public BlockChiseledRedNetherBricks(ElementsWastelandsofBaedoor instance) {
-		super(instance, 18);
+		super(instance, 66);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("chiseledrednetherbricks"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("chiseled_red_nether_bricks"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -35,12 +35,12 @@ public class BlockChiseledRedNetherBricks extends ElementsWastelandsofBaedoor.Mo
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("wobr:chiseledrednetherbricks", "inventory"));
+				new ModelResourceLocation("wobr:chiseled_red_nether_bricks", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("chiseledrednetherbricks");
+			setUnlocalizedName("chiseled_red_nether_bricks");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 1);
 			setHardness(2F);

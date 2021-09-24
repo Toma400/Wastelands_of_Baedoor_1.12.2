@@ -19,15 +19,15 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockMushroomPoisonBlock extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:mushroompoisonblock")
+	@GameRegistry.ObjectHolder("wobr:mushroom_poison_block")
 	public static final Block block = null;
 	public BlockMushroomPoisonBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 21);
+		super(instance, 69);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("mushroompoisonblock"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("mushroom_poison_block"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -35,12 +35,12 @@ public class BlockMushroomPoisonBlock extends ElementsWastelandsofBaedoor.ModEle
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("wobr:mushroompoisonblock", "inventory"));
+				new ModelResourceLocation("wobr:mushroom_poison_block", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.PLANTS);
-			setUnlocalizedName("mushroompoisonblock");
+			setUnlocalizedName("mushroom_poison_block");
 			setSoundType(SoundType.PLANT);
 			setHardness(0.1F);
 			setResistance(0.1F);

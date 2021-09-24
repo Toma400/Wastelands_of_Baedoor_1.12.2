@@ -10,11 +10,11 @@
       "item": "minecraft:stick"
     },
     "1": {
-      "item": "wobr:crackedbone"
+      "item": "wobr:cracked_bone"
     }
   },
   "result": {
-    "item": "wobr:throwingdagger",
+    "item": "wobr:throwing_dagger",
     "count": 1
   }
 }

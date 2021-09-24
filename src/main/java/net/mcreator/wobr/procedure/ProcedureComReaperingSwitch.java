@@ -11,7 +11,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureComReaperingSwitch extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureComReaperingSwitch(ElementsWastelandsofBaedoor instance) {
-		super(instance, 119);
+		super(instance, 180);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

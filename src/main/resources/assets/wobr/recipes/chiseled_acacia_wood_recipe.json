@@ -1,0 +1,47 @@
+{
+  "group": "chiseled_wood",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "1": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "2": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "6": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:log2",
+      "data": 0
+    },
+    "8": {
+      "item": "minecraft:log2",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "wobr:chiseled_acacia_wood",
+    "count": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "wobr:golden_fluid_converter_tank"
+    }
+  }
+}

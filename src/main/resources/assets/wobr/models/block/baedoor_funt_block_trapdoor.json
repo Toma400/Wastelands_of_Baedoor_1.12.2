@@ -1,0 +1,7 @@
+{
+  "parent": "block/trapdoor_bottom",
+  "textures": {
+    "texture": "wobr:blocks/baedoor_gold_trapdoor",
+    "particle": "wobr:blocks/baedoor_gold_trapdoor"
+  }
+}

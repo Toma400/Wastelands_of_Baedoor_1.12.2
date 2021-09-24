@@ -1,0 +1,26 @@
+{
+  "group": "wooden_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "atum:palm_log",
+      "data": 0
+    },
+    "2": {
+      "item": "atum:palm_log",
+      "data": 0
+    },
+    "3": {
+      "item": "atum:palm_log",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "wobr:palm_wooden_stairs",
+    "count": 3
+  }
+}

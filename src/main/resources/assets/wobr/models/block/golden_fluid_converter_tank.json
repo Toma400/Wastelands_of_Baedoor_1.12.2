@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/fluid_tank_heater_bottom",
+    "up": "wobr:blocks/fluid_tank_heater_top",
+    "north": "wobr:blocks/fluid_tank_heater_sides",
+    "east": "wobr:blocks/fluid_tank_heater_sides",
+    "south": "wobr:blocks/fluid_tank_heater_sides",
+    "west": "wobr:blocks/fluid_tank_heater_sides",
+    "particle": "wobr:blocks/fluid_tank_heater_bottom"
+  }
+}

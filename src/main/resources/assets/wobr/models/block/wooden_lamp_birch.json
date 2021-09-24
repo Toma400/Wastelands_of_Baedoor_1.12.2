@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/wood_birch",
+    "up": "wobr:blocks/wood_birch",
+    "north": "wobr:blocks/lamp_birch_2",
+    "east": "wobr:blocks/lamp_birch",
+    "south": "wobr:blocks/lamp_birch_2",
+    "west": "wobr:blocks/lamp_birch",
+    "particle": "wobr:blocks/wood_birch"
+  }
+}

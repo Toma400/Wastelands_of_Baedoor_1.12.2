@@ -17,10 +17,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemShortBarrel extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:shortbarrel")
+	@GameRegistry.ObjectHolder("wobr:short_barrel")
 	public static final Item block = null;
 	public ItemShortBarrel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 29);
+		super(instance, 77);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemShortBarrel extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:shortbarrel", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:short_barrel", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("shortbarrel");
-			setRegistryName("shortbarrel");
+			setUnlocalizedName("short_barrel");
+			setRegistryName("short_barrel");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

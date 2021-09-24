@@ -17,7 +17,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemJavelinSack extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:javelinsack")
+	@GameRegistry.ObjectHolder("wobr:javelin_sack")
 	public static final Item block = null;
 	public ItemJavelinSack(ElementsWastelandsofBaedoor instance) {
 		super(instance, 9);
@@ -31,14 +31,14 @@ public class ItemJavelinSack extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:javelinsack", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:javelin_sack", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 1;
-			setUnlocalizedName("javelinsack");
-			setRegistryName("javelinsack");
+			setUnlocalizedName("javelin_sack");
+			setRegistryName("javelin_sack");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

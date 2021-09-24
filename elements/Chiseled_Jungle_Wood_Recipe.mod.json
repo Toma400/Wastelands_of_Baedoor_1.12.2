@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 8,
+    "group": "chiseled_wood",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      },
+      {
+        "value": "Blocks.LOG#3"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chiseled_Jungle_Wood"
+    },
+    "name": "chiseled_jungle_wood_recipe",
+    "namespace": "mod"
+  }
+}

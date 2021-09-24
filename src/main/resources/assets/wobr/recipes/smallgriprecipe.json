@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "wobr:firearmlock"
+      "item": "wobr:firearm_lock"
     },
     "1": {
       "item": "minecraft:planks",
@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "wobr:smallgrip",
+    "item": "wobr:small_grip",
     "count": 1
   }
 }

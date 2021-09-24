@@ -36,6 +36,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.wobr.gui.GuiWandering_Trader_GUI_2;
 import net.mcreator.wobr.gui.GuiWanderingTraderGUI;
+import net.mcreator.wobr.gui.GuiWanderingTraderAlternativeGUI;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -139,6 +140,8 @@ public class ElementsWastelandsofBaedoor implements IFuelHandler, IWorldGenerato
 				return new GuiWanderingTraderGUI.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiWandering_Trader_GUI_2.GUIID)
 				return new GuiWandering_Trader_GUI_2.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiWanderingTraderAlternativeGUI.GUIID)
+				return new GuiWanderingTraderAlternativeGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -148,6 +151,8 @@ public class ElementsWastelandsofBaedoor implements IFuelHandler, IWorldGenerato
 				return new GuiWanderingTraderGUI.GuiWindow(world, x, y, z, player);
 			if (id == GuiWandering_Trader_GUI_2.GUIID)
 				return new GuiWandering_Trader_GUI_2.GuiWindow(world, x, y, z, player);
+			if (id == GuiWanderingTraderAlternativeGUI.GUIID)
+				return new GuiWanderingTraderAlternativeGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

@@ -30,7 +30,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureNetherAvoiderTagKill extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureNetherAvoiderTagKill(ElementsWastelandsofBaedoor instance) {
-		super(instance, 112);
+		super(instance, 173);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

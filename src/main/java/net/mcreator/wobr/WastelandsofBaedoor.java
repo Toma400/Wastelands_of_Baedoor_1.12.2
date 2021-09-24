@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = WastelandsofBaedoor.MODID, version = WastelandsofBaedoor.VERSION)
 public class WastelandsofBaedoor {
 	public static final String MODID = "wobr";
-	public static final String VERSION = "12v0.a3";
+	public static final String VERSION = "12v0.a5";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("wobr:a");
 	@SidedProxy(clientSide = "net.mcreator.wobr.ClientProxyWastelandsofBaedoor", serverSide = "net.mcreator.wobr.ServerProxyWastelandsofBaedoor")
 	public static IProxyWastelandsofBaedoor proxy;

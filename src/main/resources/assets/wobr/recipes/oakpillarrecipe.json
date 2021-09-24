@@ -1,0 +1,27 @@
+{
+  "group": "wood_pillar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    "1": {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    "2": {
+      "item": "minecraft:log",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "wobr:pillar_oak",
+    "count": 3
+  }
+}

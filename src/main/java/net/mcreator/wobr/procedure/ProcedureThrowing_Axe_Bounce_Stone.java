@@ -10,7 +10,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureThrowing_Axe_Bounce_Stone extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureThrowing_Axe_Bounce_Stone(ElementsWastelandsofBaedoor instance) {
-		super(instance, 104);
+		super(instance, 165);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

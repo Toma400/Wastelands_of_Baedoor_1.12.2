@@ -32,10 +32,10 @@ import java.util.Random;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class BlockSandyVeilPlant extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:sandyveilplant")
+	@GameRegistry.ObjectHolder("wobr:sandy_veil_plant")
 	public static final Block block = null;
 	public BlockSandyVeilPlant(ElementsWastelandsofBaedoor instance) {
-		super(instance, 127);
+		super(instance, 185);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class BlockSandyVeilPlant extends ElementsWastelandsofBaedoor.ModElement 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:sandyveilplant", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:sandy_veil_plant", "inventory"));
 	}
 	public static class BlockCustomFlower extends BlockFlower {
 		public BlockCustomFlower() {
@@ -56,8 +56,8 @@ public class BlockSandyVeilPlant extends ElementsWastelandsofBaedoor.ModElement 
 			setHardness(0F);
 			setResistance(0F);
 			setLightLevel(0F);
-			setUnlocalizedName("sandyveilplant");
-			setRegistryName("sandyveilplant");
+			setUnlocalizedName("sandy_veil_plant");
+			setRegistryName("sandy_veil_plant");
 		}
 
 		@Override

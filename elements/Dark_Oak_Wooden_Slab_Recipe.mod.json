@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 6,
+    "group": "wooden_slabs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG2#1"
+      },
+      {
+        "value": "Blocks.LOG2#1"
+      },
+      {
+        "value": "Blocks.LOG2#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Mimic_Dark_Oak_Slab"
+    },
+    "name": "dark_oak_wooden_slab_recipe",
+    "namespace": "mod"
+  }
+}

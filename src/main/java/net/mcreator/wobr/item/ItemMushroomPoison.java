@@ -22,10 +22,10 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemMushroomPoison extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:mushroompoison")
+	@GameRegistry.ObjectHolder("wobr:mushroom_poison")
 	public static final Item block = null;
 	public ItemMushroomPoison(ElementsWastelandsofBaedoor instance) {
-		super(instance, 22);
+		super(instance, 70);
 	}
 
 	@Override
@@ -36,14 +36,14 @@ public class ItemMushroomPoison extends ElementsWastelandsofBaedoor.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:mushroompoison", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:mushroom_poison", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("mushroompoison");
-			setRegistryName("mushroompoison");
+			setUnlocalizedName("mushroom_poison");
+			setRegistryName("mushroom_poison");
 			setCreativeTab(TabWastelandsofBaedoor.tab);
 		}
 

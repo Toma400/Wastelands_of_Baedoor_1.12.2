@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class CommandReaperingSwitcher extends ElementsWastelandsofBaedoor.ModElement {
 	public CommandReaperingSwitcher(ElementsWastelandsofBaedoor instance) {
-		super(instance, 117);
+		super(instance, 178);
 	}
 
 	@Override
