@@ -100,7 +100,32 @@
       "wobr:spruce_wooden_lamp",
       "wobr:jungle_wooden_lamp",
       "wobr:acacia_wooden_lamp",
-      "wobr:birch_wooden_lamp"
+      "wobr:birch_wooden_lamp",
+      "wobr:palegoldingotrecipe",
+      "wobr:baedoorgoldingotrecipe",
+      "wobr:fluidtankheaterrecipe",
+      "wobr:baedoorgoldblockrecipe",
+      "wobr:baedoorgoldblockunrecipe",
+      "wobr:baedoorgoldenslabrecipe",
+      "wobr:baedoorgoldenstairsrecipe",
+      "wobr:baedoorgoldenwallrecipe",
+      "wobr:baedoorgoldenchiselrecipe",
+      "wobr:baedoorgoldenpillarrecipe",
+      "wobr:baedoorgoldentrapdoorrecipe",
+      "wobr:baedoorgoldenlamprecipe",
+      "wobr:addonatumdeadwood",
+      "wobr:palm_wooden_slab_recipe",
+      "wobr:palm_wooden_slab_recipe",
+      "wobr:deadwood_wooden_stairs_recipe",
+      "wobr:palm_wooden_stairs_recipe",
+      "wobr:chiseled_deadwood_wood_recipe",
+      "wobr:chiseled_palm_wood_recipe",
+      "wobr:chiseled_deadwood_wooden_slab_recipe",
+      "wobr:chiseled_palm_wooden_slab_recipe",
+      "wobr:deadwood_pillar_recipe",
+      "wobr:palm_pillar_recipe",
+      "wobr:deadwood_wooden_lamp_recipe",
+      "wobr:palm_wooden_lamp_recipe"
     ]
   }
 }
