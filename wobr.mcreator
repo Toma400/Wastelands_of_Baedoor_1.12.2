@@ -160,7 +160,8 @@
       "locked_code": false,
       "ids": {
         "0": 1
-      }
+      },
+      "registry_name": "bullet_ranged"
     },
     {
       "name": "ShotHandmadeRevolver",
@@ -3434,6 +3435,7 @@
       "tile.chiseled_oak_wooden_slab.name": "Chiseled Oak Wooden Slab",
       "item.mimic_oak_slab_chisel.name": "Chiseled Oak Wooden Slab",
       "tile.firearm_table.name": "Firearm Table",
+      "item.bullet_ranged.name": "Bullet Ranged",
       "tile.golden_fluid_converter_active.name": "Fluid Tank Heater",
       "tile.charcoal_block.name": "Charcoal Block",
       "tile.dark_oak_wooden_stairs.name": "Dark Oak Wooden Stairs",
@@ -3443,7 +3445,6 @@
       "item.stone_throwing_axe.name": "Stone Throwing Axe",
       "tile.spruce_wooden_slab.name": "Spruce Wooden Slab",
       "tile.pillar_birch.name": "Birch Pillar",
-      "item.bulletranged.name": "Bullet Ranged",
       "item.mimic_acacia_slab_chisel.name": "Chiseled Spruce Wooden Slab",
       "tile.wooden_lamp_deadwood.name": "Deadwood Wooden Lamp",
       "tile.dark_oak_wooden_slab.name": "Dark Oak Wooden Slab",

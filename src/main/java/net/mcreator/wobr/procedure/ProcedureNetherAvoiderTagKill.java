@@ -106,7 +106,7 @@ public class ProcedureNetherAvoiderTagKill extends ElementsWastelandsofBaedoor.M
 						public Vec3d getPositionVector() {
 							return new Vec3d(x, y, z);
 						}
-					}, "kill @e[type=item,distance=..1]");
+					}, "kill @e[type=item,r=1]");
 				}
 			}
 		} else {

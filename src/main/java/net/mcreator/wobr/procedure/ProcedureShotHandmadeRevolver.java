@@ -9,9 +9,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.projectile.EntityTippedArrow;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.command.ICommandSender;
 
@@ -83,13 +81,6 @@ public class ProcedureShotHandmadeRevolver extends ElementsWastelandsofBaedoor.M
 					_stack.getTagCompound().setDouble("Ammo",
 							(((itemstack).hasTagCompound() ? (itemstack).getTagCompound().getDouble("Ammo") : -1) - 1));
 				}
-				if (!world.isRemote && entity instanceof EntityLivingBase) {
-					EntityTippedArrow entityToSpawn = new EntityTippedArrow(world, (EntityLivingBase) entity);
-					entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, ((float) 2) * 2.0F, 0);
-					entityToSpawn.setDamage(((float) 2) * 2.0F);
-					entityToSpawn.setKnockbackStrength((int) 1);
-					world.spawnEntity(entityToSpawn);
-				}
 				if (!entity.world.isRemote && entity.world.getMinecraftServer() != null) {
 					entity.world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
 						@Override
@@ -131,7 +122,7 @@ public class ProcedureShotHandmadeRevolver extends ElementsWastelandsofBaedoor.M
 						public Entity getCommandSenderEntity() {
 							return entity;
 						}
-					}, "/execute @e[type=Arrow] ~ ~ ~ summon Fireball ~ ~ ~ {direction:[0.0,0.0,0.0],ExplosionPower:0}");
+					}, "/summon wobr:entitybulletbullet_ranged ~ ~1 ~ {damage:4,Motion:[1.0,0.0,0.0],NoGravity:1b}");
 				}
 			} else {
 				world.playSound((EntityPlayer) null, x, y, z,

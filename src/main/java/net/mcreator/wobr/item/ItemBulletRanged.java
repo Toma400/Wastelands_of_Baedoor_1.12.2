@@ -33,7 +33,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ItemBulletRanged extends ElementsWastelandsofBaedoor.ModElement {
-	@GameRegistry.ObjectHolder("wobr:bulletranged")
+	@GameRegistry.ObjectHolder("wobr:bullet_ranged")
 	public static final Item block = null;
 	public static final int ENTITYID = 1;
 	public ItemBulletRanged(ElementsWastelandsofBaedoor instance) {
@@ -44,14 +44,14 @@ public class ItemBulletRanged extends ElementsWastelandsofBaedoor.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new RangedItem());
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityArrowCustom.class)
-				.id(new ResourceLocation("wobr", "entitybulletbulletranged"), ENTITYID).name("entitybulletbulletranged").tracker(64, 1, true)
+				.id(new ResourceLocation("wobr", "entitybulletbullet_ranged"), ENTITYID).name("entitybulletbullet_ranged").tracker(64, 1, true)
 				.build());
 	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:bulletranged", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("wobr:bullet_ranged", "inventory"));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -67,8 +67,8 @@ public class ItemBulletRanged extends ElementsWastelandsofBaedoor.ModElement {
 			super();
 			setMaxDamage(100);
 			setFull3D();
-			setUnlocalizedName("bulletranged");
-			setRegistryName("bulletranged");
+			setUnlocalizedName("bullet_ranged");
+			setRegistryName("bullet_ranged");
 			maxStackSize = 1;
 			setCreativeTab(null);
 		}
