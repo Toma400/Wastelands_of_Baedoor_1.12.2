@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 13,
-    "GUI": 8
+    "GUI": 8,
+    "ENTITY": 13
   },
   "mod_elements": [
     {
@@ -3352,6 +3352,23 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GlisteringSand",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sand"
+    },
+    {
+      "name": "GlisteringSandRecipe",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3507,6 +3524,7 @@
       "tile.chiseled_dark_oak_wooden_slab.name": "Chiseled Dark Oak Wooden Slab",
       "item.lava_ingot.name": "Lava Ingot",
       "item.wobr.bulletranged": "Bullet Ranged",
+      "tile.glistering_sand.name": "Glistering Sand",
       "item.javelin_sack_stone.name": "Javelin Sack (with Stone Javelins)",
       "tile.baedoor_funt_block_stairs.name": "Baedoor Golden Stairs",
       "tile.acacia_wooden_stairs.name": "Acacia Wooden Stairs",

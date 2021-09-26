@@ -54,6 +54,7 @@ public class ProcedureShotHandmadeRevolver extends ElementsWastelandsofBaedoor.M
 		int z = (int) dependencies.get("z");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		World world = (World) dependencies.get("world");
+		String comm = "";
 		if ((((itemstack).hasTagCompound() ? (itemstack).getTagCompound().getDouble("Ammo") : -1) > 0)) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();

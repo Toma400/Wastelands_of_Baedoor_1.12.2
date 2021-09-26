@@ -1,0 +1,88 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "glistering_sand",
+    "textureTop": "glistering_sand",
+    "textureLeft": "glistering_sand",
+    "textureFront": "glistering_sand",
+    "textureRight": "glistering_sand",
+    "textureBack": "glistering_sand",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 0.9,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Glistering Sand",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 1.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:WastelandsofBaedoor"
+    },
+    "destroyTool": "shovel",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": "CUSTOM:GlisteringAsh"
+    },
+    "dropAmount": 4,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "SNOW"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "SNOW"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}
