@@ -2,45 +2,45 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "glistering_sand",
-    "textureTop": "glistering_sand",
-    "textureLeft": "glistering_sand",
-    "textureFront": "glistering_sand",
-    "textureRight": "glistering_sand",
-    "textureBack": "glistering_sand",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "glistering_sandstone_bottom",
+    "textureTop": "glistering_sandstone_top",
+    "textureLeft": "glistering_sandstone",
+    "textureFront": "glistering_sandstone",
+    "textureRight": "glistering_sandstone",
+    "textureBack": "glistering_sandstone",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
-    "hasTransparency": true,
-    "transparencyType": "CUTOUT_MIPPED",
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
-    "My": 0.9,
+    "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Glistering Sand",
+    "name": "Glistering Sandstone",
     "specialInfo": [],
-    "hardness": 0.1,
-    "resistance": 0.1,
-    "hasGravity": true,
+    "hardness": 0.3,
+    "resistance": 0.3,
+    "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:WastelandsofBaedoor"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:GlisteringAsh"
+      "value": ""
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "SAND"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,

@@ -105,7 +105,16 @@
       "Deadwood_Pillar_Recipe",
       "Palm_Pillar_Recipe",
       "Deadwood_Wooden_Lamp_Recipe",
-      "Palm_Wooden_Lamp_Recipe"
+      "Palm_Wooden_Lamp_Recipe",
+      "GlisteringSandRecipe",
+      "GlisteringClayRecipe",
+      "EndStoneRecipe",
+      "GlisteringSandstoneRecipe",
+      "GlisteringSandstoneSmoothRecipe",
+      "GlisteringSandstoneStairsRecipe",
+      "GlisteringSandstoneSlabRecipe",
+      "GlisteringSandstoneSmoothStairsRecipe",
+      "GlisteringSandstoneSmoothSlabRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 1,

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:glistering_sandstone_slab_double"
+    }
+  }
+}

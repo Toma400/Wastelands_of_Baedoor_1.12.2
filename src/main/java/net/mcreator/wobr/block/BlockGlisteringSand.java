@@ -11,6 +11,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.NonNullList;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
@@ -18,6 +19,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockFalling;
 import net.minecraft.block.Block;
 
 import net.mcreator.wobr.item.ItemGlisteringAsh;
@@ -43,17 +45,23 @@ public class BlockGlisteringSand extends ElementsWastelandsofBaedoor.ModElement 
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("wobr:glistering_sand", "inventory"));
 	}
-	public static class BlockCustom extends Block {
+	public static class BlockCustom extends BlockFalling {
 		public BlockCustom() {
-			super(Material.SNOW);
+			super(Material.SAND);
 			setUnlocalizedName("glistering_sand");
-			setSoundType(SoundType.SNOW);
+			setSoundType(SoundType.SAND);
 			setHarvestLevel("shovel", 0);
-			setHardness(1F);
-			setResistance(1F);
+			setHardness(0.1F);
+			setResistance(0.1F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabWastelandsofBaedoor.tab);
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public BlockRenderLayer getBlockLayer() {
+			return BlockRenderLayer.CUTOUT_MIPPED;
 		}
 
 		@Override

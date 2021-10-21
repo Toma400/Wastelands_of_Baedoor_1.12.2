@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 6,
+    "group": "glistering_sandstone_slab",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstone"
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstone"
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MimicGlisteringSandstoneSlab"
+    },
+    "name": "glisteringsandstoneslabrecipe",
+    "namespace": "mod"
+  }
+}

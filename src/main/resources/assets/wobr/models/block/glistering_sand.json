@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "wobr:blocks/glistering_sand",
-    "up": "wobr:blocks/glistering_sand",
-    "north": "wobr:blocks/glistering_sand",
-    "east": "wobr:blocks/glistering_sand",
-    "south": "wobr:blocks/glistering_sand",
-    "west": "wobr:blocks/glistering_sand",
+    "all": "wobr:blocks/glistering_sand",
     "particle": "wobr:blocks/glistering_sand"
   }
 }

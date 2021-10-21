@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "glistering_sandstone_smooth_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      },
+      {
+        "value": "CUSTOM:GlisteringSandstoneSmooth"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlisteringSandstoneSmoothStairs"
+    },
+    "name": "glisteringsandstonesmoothstairsrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "end_stone",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GlisteringClay"
+    },
+    "smeltingReturnStack": {
+      "value": "Blocks.END_STONE"
+    },
+    "name": "endstonerecipe",
+    "namespace": "mod"
+  }
+}

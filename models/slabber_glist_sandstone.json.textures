@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glistering_sandstone_side",
+        "1": "glistering_sandstone_top"
+      },
+      "name": "default"
+    }
+  }
+}

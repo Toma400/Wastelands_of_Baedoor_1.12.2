@@ -3369,6 +3369,151 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GlisteringClay",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_clay"
+    },
+    {
+      "name": "GlisteringSandstone",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sandstone"
+    },
+    {
+      "name": "GlisteringSandstoneSmooth",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sandstone_smooth"
+    },
+    {
+      "name": "GlisteringSandstoneStairs",
+      "type": "block",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sandstone_stairs"
+    },
+    {
+      "name": "GlisteringSandstoneSmoothStairs",
+      "type": "block",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sandstone_smooth_stairs"
+    },
+    {
+      "name": "GlisteringSandstoneSlab",
+      "type": "block",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "glistering_sandstone_slab"
+    },
+    {
+      "name": "GlisteringSandstoneSmoothSlab",
+      "type": "block",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glistering_sandstone_smooth_slab"
+    },
+    {
+      "name": "MimicGlisteringSandstoneSlab",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mimic_glistering_sandstone_slab"
+    },
+    {
+      "name": "MimicGlisteringSandstoneSmoothSlab",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mimic_glistering_sandstone_smooth_slab"
+    },
+    {
+      "name": "GlisteringClayRecipe",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndStoneRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneSmoothRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneSmoothStairsRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GlisteringSandstoneSmoothSlabRecipe",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3424,8 +3569,8 @@
       "splash_potion.effect.netheravoiderpulsating": "Splash Nether Avoider Pulsating",
       "tile.birch_wooden_slab.name": "Birch Wooden Slab",
       "item.wobr.smallgrip": "Small Grip",
-      "item.bone_javelin.name": "Bone Javelin",
       "item.poisoned_throwing_dagger.name": "Throwing Dagger",
+      "item.bone_javelin.name": "Bone Javelin",
       "tile.jungle_wooden_slab.name": "Jungle Wooden Slab",
       "tile.pillar_deadwood.name": "Deadwood Pillar",
       "tile.jungle_wooden_stairs.name": "Jungle Wooden Stairs",
@@ -3435,8 +3580,8 @@
       "tile.chiseled_jungle_wooden_slab.name": "Chiseled Jungle Wooden Slab",
       "tile.wooden_lamp_spruce.name": "Spruce Wooden Lamp",
       "tile.sandy_veil.name": "Sandy Veil",
-      "item.throwing_dagger.name": "Throwing Dagger",
       "tile.vulcanic_veil_plant.name": "Sandy Veil Plant",
+      "item.throwing_dagger.name": "Throwing Dagger",
       "tile.birch_wooden_stairs.name": "Birch Wooden Stairs",
       "tipped_arrow.effect.netheravoiderpulsating": "Arrow of Nether Avoider Pulsating",
       "advancements.reveal.descr": "You entered the world of Wastelands of Baedoor...",
@@ -3458,6 +3603,7 @@
       "tile.dark_oak_wooden_stairs.name": "Dark Oak Wooden Stairs",
       "tile.chiseled_palm_wood.name": "Chiseled Palm Wood",
       "tile.chiseled_palm_wooden_slab.name": "Chiseled Palm Wooden Slab",
+      "tile.glistering_sandstone_smooth_slab.name": "Smooth Glistering Sandstone Slab",
       "tile.baedoor_funt_block_chiseled.name": "Chiseled Block of Baedoor Gold",
       "item.stone_throwing_axe.name": "Stone Throwing Axe",
       "tile.spruce_wooden_slab.name": "Spruce Wooden Slab",
@@ -3472,6 +3618,7 @@
       "tile.pillar_dark_oak.name": "Dark Oak Pillar",
       "item.mushroom_poison.name": "Mushroom Poison",
       "tile.vulcanic_sand.name": "Vulcanic Sand",
+      "tile.glistering_sandstone.name": "Glistering Sandstone",
       "tile.chiseled_red_nether_bricks.name": "Chiseled Red Nether Bricks",
       "item.throwingdaggerprojectile.name": "Throwing Dagger Projectile",
       "item.handmade_revolver.name": "Handmade Revolver",
@@ -3479,6 +3626,7 @@
       "tile.chiseled_deadwood_wooden_slab.name": "Chiseled Deadwood Wooden Slab",
       "item.mimic_jungle_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
       "tile.pillar_spruce.name": "Spruce Pillar",
+      "item.mimic_glistering_sandstone_smooth_slab.name": "Smooth Glistering Sandstone Slab",
       "item.wobr.shortbarrel": "Short Barrel",
       "fluid.sandywater": "SandyWater",
       "tile.nether_avoider_inactive.name": "Nether Avoider",
@@ -3517,6 +3665,7 @@
       "tile.deadwood_wooden_slab.name": "Deadwood Wooden Slab",
       "item.mimic_deadwood_slab.name": "Deadwood Wooden Slab",
       "item.mimic_palm_slab_chisel.name": "Chiseled Palm Wooden Slab",
+      "tile.glistering_sandstone_smooth.name": "Smooth Glistering Sandstone",
       "tile.chiseled_birch_wood.name": "Chiseled Birch Wood",
       "item.mimic_oak_slab.name": "Oak Wooden Slab",
       "tile.nether_avoider_active.name": "Nether Avoider",
@@ -3526,9 +3675,12 @@
       "item.wobr.bulletranged": "Bullet Ranged",
       "tile.glistering_sand.name": "Glistering Sand",
       "item.javelin_sack_stone.name": "Javelin Sack (with Stone Javelins)",
+      "tile.glistering_sandstone_smooth_stairs.name": "Smooth Glistering Sandstone Stairs",
       "tile.baedoor_funt_block_stairs.name": "Baedoor Golden Stairs",
+      "tile.glistering_sandstone_stairs.name": "Glistering Sandstone Stairs",
       "tile.acacia_wooden_stairs.name": "Acacia Wooden Stairs",
       "item.wobr.firearmlock": "Firearm Lock",
+      "item.mimic_glistering_sandstone_slab.name": "Glistering Sandstone Slab",
       "item.mimic_birch_slab.name": "Birch Wooden Slab",
       "item.pale_gold_ingot.name": "Pale Gold Ingot",
       "item.mimic_jungle_slab.name": "Dark Oak Wooden Slab",
@@ -3542,9 +3694,11 @@
       "tile.pillar_palm.name": "Palm Pillar",
       "tile.wooden_lamp_oak.name": "Oak Wooden Lamp",
       "potion.effect.nether_avoider_shield_potion": "Nether Avoider Shield",
+      "tile.glistering_clay.name": "Glistering Clay",
       "tile.chiseled_oak_wood.name": "Chiseled Oak Wood",
       "item.cracked_bone.name": "Cracked Bone",
       "tile.baedoor_funt_block_trapdoor.name": "Baedoor Golden Trapdoor",
+      "tile.glistering_sandstone_slab.name": "Glistering Sandstone Slab",
       "tile.lava_block.name": "Block of Lava",
       "tile.pillar_acacia.name": "Acacia Pillar",
       "tile.baedoor_funt_block_pillar.name": "Baedoor Golden Pillar",

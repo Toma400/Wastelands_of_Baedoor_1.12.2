@@ -125,7 +125,16 @@
       "wobr:deadwood_pillar_recipe",
       "wobr:palm_pillar_recipe",
       "wobr:deadwood_wooden_lamp_recipe",
-      "wobr:palm_wooden_lamp_recipe"
+      "wobr:palm_wooden_lamp_recipe",
+      "wobr:glisteringsandrecipe",
+      "wobr:glisteringclayrecipe",
+      "wobr:endstonerecipe",
+      "wobr:glisteringsandstonerecipe",
+      "wobr:glisteringsandstonesmoothrecipe",
+      "wobr:glisteringsandstonestairsrecipe",
+      "wobr:glisteringsandstoneslabrecipe",
+      "wobr:glisteringsandstonesmoothstairsrecipe",
+      "wobr:glisteringsandstonesmoothslabrecipe"
     ]
   }
 }
