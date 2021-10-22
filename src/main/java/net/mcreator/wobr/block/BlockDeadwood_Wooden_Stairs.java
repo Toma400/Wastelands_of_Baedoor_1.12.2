@@ -32,7 +32,7 @@ public class BlockDeadwood_Wooden_Stairs extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:deadwood_wooden_stairs")
 	public static final Block block = null;
 	public BlockDeadwood_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 83);
+		super(instance, 92);
 	}
 
 	@Override

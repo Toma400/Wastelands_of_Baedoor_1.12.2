@@ -16,7 +16,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureFluidConverterStates extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureFluidConverterStates(ElementsWastelandsofBaedoor instance) {
-		super(instance, 247);
+		super(instance, 256);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -14,7 +14,7 @@ import java.util.Iterator;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureRevealAchievement extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureRevealAchievement(ElementsWastelandsofBaedoor instance) {
-		super(instance, 148);
+		super(instance, 157);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

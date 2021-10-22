@@ -45,7 +45,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureSlabBugfix extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureSlabBugfix(ElementsWastelandsofBaedoor instance) {
-		super(instance, 277);
+		super(instance, 286);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

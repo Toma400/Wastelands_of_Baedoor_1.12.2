@@ -26,7 +26,7 @@ public class BlockChiseled_Birch_Wood extends ElementsWastelandsofBaedoor.ModEle
 	@GameRegistry.ObjectHolder("wobr:chiseled_birch_wood")
 	public static final Block block = null;
 	public BlockChiseled_Birch_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 46);
+		super(instance, 55);
 	}
 
 	@Override

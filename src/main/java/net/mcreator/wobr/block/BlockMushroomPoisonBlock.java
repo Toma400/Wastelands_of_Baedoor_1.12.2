@@ -22,7 +22,7 @@ public class BlockMushroomPoisonBlock extends ElementsWastelandsofBaedoor.ModEle
 	@GameRegistry.ObjectHolder("wobr:mushroom_poison_block")
 	public static final Block block = null;
 	public BlockMushroomPoisonBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 69);
+		super(instance, 78);
 	}
 
 	@Override

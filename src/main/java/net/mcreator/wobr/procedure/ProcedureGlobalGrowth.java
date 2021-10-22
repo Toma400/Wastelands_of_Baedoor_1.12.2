@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureGlobalGrowth extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureGlobalGrowth(ElementsWastelandsofBaedoor instance) {
-		super(instance, 184);
+		super(instance, 193);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -22,7 +22,7 @@ public class BlockBaedoorFuntBlockPillar extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_pillar")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockPillar(ElementsWastelandsofBaedoor instance) {
-		super(instance, 23);
+		super(instance, 32);
 	}
 
 	@Override

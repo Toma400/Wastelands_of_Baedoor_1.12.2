@@ -26,7 +26,7 @@ public class BlockChiseled_Dark_Oak_Wood extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:chiseled_dark_oak_wood")
 	public static final Block block = null;
 	public BlockChiseled_Dark_Oak_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 30);
+		super(instance, 39);
 	}
 
 	@Override

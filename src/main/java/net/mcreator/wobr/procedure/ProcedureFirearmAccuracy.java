@@ -16,7 +16,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureFirearmAccuracy extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureFirearmAccuracy(ElementsWastelandsofBaedoor instance) {
-		super(instance, 112);
+		super(instance, 121);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

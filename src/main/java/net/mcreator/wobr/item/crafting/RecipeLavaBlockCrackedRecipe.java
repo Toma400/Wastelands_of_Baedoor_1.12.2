@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class RecipeLavaBlockCrackedRecipe extends ElementsWastelandsofBaedoor.ModElement {
 	public RecipeLavaBlockCrackedRecipe(ElementsWastelandsofBaedoor instance) {
-		super(instance, 155);
+		super(instance, 164);
 	}
 
 	@Override

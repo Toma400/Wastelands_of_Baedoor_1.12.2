@@ -24,7 +24,7 @@ public class BlockGlisteringSandstoneStairs extends ElementsWastelandsofBaedoor.
 	@GameRegistry.ObjectHolder("wobr:glistering_sandstone_stairs")
 	public static final Block block = null;
 	public BlockGlisteringSandstoneStairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 300);
+		super(instance, 21);
 	}
 
 	@Override

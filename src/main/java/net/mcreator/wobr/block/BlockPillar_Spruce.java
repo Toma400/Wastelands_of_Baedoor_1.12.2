@@ -26,7 +26,7 @@ public class BlockPillar_Spruce extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:pillar_spruce")
 	public static final Block block = null;
 	public BlockPillar_Spruce(ElementsWastelandsofBaedoor instance) {
-		super(instance, 52);
+		super(instance, 61);
 	}
 
 	@Override

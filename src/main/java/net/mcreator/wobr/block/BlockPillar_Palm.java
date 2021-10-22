@@ -31,7 +31,7 @@ public class BlockPillar_Palm extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:pillar_palm")
 	public static final Block block = null;
 	public BlockPillar_Palm(ElementsWastelandsofBaedoor instance) {
-		super(instance, 93);
+		super(instance, 102);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class BlockChiseledRedNetherBricks extends ElementsWastelandsofBaedoor.Mo
 	@GameRegistry.ObjectHolder("wobr:chiseled_red_nether_bricks")
 	public static final Block block = null;
 	public BlockChiseledRedNetherBricks(ElementsWastelandsofBaedoor instance) {
-		super(instance, 66);
+		super(instance, 75);
 	}
 
 	@Override

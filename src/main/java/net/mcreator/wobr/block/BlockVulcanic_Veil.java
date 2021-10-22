@@ -33,7 +33,7 @@ public class BlockVulcanic_Veil extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:vulcanic_veil")
 	public static final Block block = null;
 	public BlockVulcanic_Veil(ElementsWastelandsofBaedoor instance) {
-		super(instance, 71);
+		super(instance, 80);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureFluidConverterRemoval extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureFluidConverterRemoval(ElementsWastelandsofBaedoor instance) {
-		super(instance, 249);
+		super(instance, 258);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

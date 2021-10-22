@@ -27,7 +27,7 @@ public class BlockBaedoorFuntBlockWall extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_wall")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockWall(ElementsWastelandsofBaedoor instance) {
-		super(instance, 20);
+		super(instance, 29);
 	}
 
 	@Override

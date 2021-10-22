@@ -37,7 +37,7 @@ public class BlockSpruce_Wooden_Slab extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:spruce_wooden_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockSpruce_Wooden_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 35);
+		super(instance, 44);
 	}
 
 	@Override

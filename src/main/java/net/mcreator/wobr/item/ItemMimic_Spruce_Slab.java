@@ -22,7 +22,7 @@ public class ItemMimic_Spruce_Slab extends ElementsWastelandsofBaedoor.ModElemen
 	@GameRegistry.ObjectHolder("wobr:mimic_spruce_slab")
 	public static final Item block = null;
 	public ItemMimic_Spruce_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 283);
+		super(instance, 292);
 	}
 
 	@Override

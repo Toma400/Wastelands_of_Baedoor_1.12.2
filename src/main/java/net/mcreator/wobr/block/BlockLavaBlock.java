@@ -22,7 +22,7 @@ public class BlockLavaBlock extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:lava_block")
 	public static final Block block = null;
 	public BlockLavaBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 67);
+		super(instance, 76);
 	}
 
 	@Override

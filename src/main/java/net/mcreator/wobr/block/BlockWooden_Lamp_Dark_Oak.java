@@ -26,7 +26,7 @@ public class BlockWooden_Lamp_Dark_Oak extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:wooden_lamp_dark_oak")
 	public static final Block block = null;
 	public BlockWooden_Lamp_Dark_Oak(ElementsWastelandsofBaedoor instance) {
-		super(instance, 57);
+		super(instance, 66);
 	}
 
 	@Override

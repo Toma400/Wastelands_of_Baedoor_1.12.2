@@ -37,7 +37,7 @@ public class BlockGlisteringSandstoneSmoothSlab extends ElementsWastelandsofBaed
 	@GameRegistry.ObjectHolder("wobr:glistering_sandstone_smooth_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockGlisteringSandstoneSmoothSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 303);
+		super(instance, 23);
 	}
 
 	@Override

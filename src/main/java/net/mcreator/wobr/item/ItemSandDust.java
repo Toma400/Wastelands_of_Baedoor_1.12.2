@@ -27,7 +27,7 @@ public class ItemSandDust extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:sand_dust")
 	public static final Item block = null;
 	public ItemSandDust(ElementsWastelandsofBaedoor instance) {
-		super(instance, 74);
+		super(instance, 83);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class BlockChiseled_Acacia_Wood extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:chiseled_acacia_wood")
 	public static final Block block = null;
 	public BlockChiseled_Acacia_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 42);
+		super(instance, 51);
 	}
 
 	@Override

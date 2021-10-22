@@ -22,7 +22,7 @@ public class ItemMimicGlisteringSandstoneSmoothSlab extends ElementsWastelandsof
 	@GameRegistry.ObjectHolder("wobr:mimic_glistering_sandstone_smooth_slab")
 	public static final Item block = null;
 	public ItemMimicGlisteringSandstoneSmoothSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 305);
+		super(instance, 306);
 	}
 
 	@Override

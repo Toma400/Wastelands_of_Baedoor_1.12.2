@@ -16,7 +16,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureArrowing extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureArrowing(ElementsWastelandsofBaedoor instance) {
-		super(instance, 146);
+		super(instance, 155);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

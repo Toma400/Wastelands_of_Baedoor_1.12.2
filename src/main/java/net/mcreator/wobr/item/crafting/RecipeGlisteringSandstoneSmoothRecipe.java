@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class RecipeGlisteringSandstoneSmoothRecipe extends ElementsWastelandsofBaedoor.ModElement {
 	public RecipeGlisteringSandstoneSmoothRecipe(ElementsWastelandsofBaedoor instance) {
-		super(instance, 309);
+		super(instance, 310);
 	}
 
 	@Override

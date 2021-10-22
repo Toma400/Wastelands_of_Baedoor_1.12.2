@@ -32,7 +32,7 @@ public class BlockPalm_Wooden_Stairs extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:palm_wooden_stairs")
 	public static final Block block = null;
 	public BlockPalm_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 88);
+		super(instance, 97);
 	}
 
 	@Override

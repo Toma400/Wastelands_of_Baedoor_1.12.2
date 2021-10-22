@@ -27,7 +27,7 @@ public class BlockJungle_Wooden_Stairs extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:jungle_wooden_stairs")
 	public static final Block block = null;
 	public BlockJungle_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 40);
+		super(instance, 49);
 	}
 
 	@Override

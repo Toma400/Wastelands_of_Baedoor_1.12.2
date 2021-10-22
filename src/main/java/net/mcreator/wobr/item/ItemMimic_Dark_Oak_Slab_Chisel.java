@@ -22,7 +22,7 @@ public class ItemMimic_Dark_Oak_Slab_Chisel extends ElementsWastelandsofBaedoor.
 	@GameRegistry.ObjectHolder("wobr:mimic_dark_oak_slab_chisel")
 	public static final Item block = null;
 	public ItemMimic_Dark_Oak_Slab_Chisel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 282);
+		super(instance, 291);
 	}
 
 	@Override

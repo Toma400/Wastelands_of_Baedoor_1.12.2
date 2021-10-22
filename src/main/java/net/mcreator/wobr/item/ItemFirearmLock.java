@@ -20,7 +20,7 @@ public class ItemFirearmLock extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:firearm_lock")
 	public static final Item block = null;
 	public ItemFirearmLock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 75);
+		super(instance, 84);
 	}
 
 	@Override

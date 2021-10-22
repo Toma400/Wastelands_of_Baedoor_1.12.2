@@ -31,7 +31,7 @@ public class BlockChiseled_Deadwood_Wood extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:chiseled_deadwood_wood")
 	public static final Block block = null;
 	public BlockChiseled_Deadwood_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 82);
+		super(instance, 91);
 	}
 
 	@Override

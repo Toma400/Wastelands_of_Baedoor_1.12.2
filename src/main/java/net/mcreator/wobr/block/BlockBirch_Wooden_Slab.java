@@ -37,7 +37,7 @@ public class BlockBirch_Wooden_Slab extends ElementsWastelandsofBaedoor.ModEleme
 	@GameRegistry.ObjectHolder("wobr:birch_wooden_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockBirch_Wooden_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 47);
+		super(instance, 56);
 	}
 
 	@Override

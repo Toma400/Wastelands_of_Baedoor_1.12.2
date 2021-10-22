@@ -24,7 +24,7 @@ public class ItemGlisteringAsh extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:glistering_ash")
 	public static final Item block = null;
 	public ItemGlisteringAsh(ElementsWastelandsofBaedoor instance) {
-		super(instance, 79);
+		super(instance, 88);
 	}
 
 	@Override

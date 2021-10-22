@@ -22,7 +22,7 @@ public class BlockGlowingObsidian extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:glowing_obsidian")
 	public static final Block block = null;
 	public BlockGlowingObsidian(ElementsWastelandsofBaedoor instance) {
-		super(instance, 63);
+		super(instance, 72);
 	}
 
 	@Override

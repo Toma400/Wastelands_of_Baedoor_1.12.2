@@ -27,7 +27,7 @@ public class BlockSpruce_Wooden_Stairs extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:spruce_wooden_stairs")
 	public static final Block block = null;
 	public BlockSpruce_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 36);
+		super(instance, 45);
 	}
 
 	@Override

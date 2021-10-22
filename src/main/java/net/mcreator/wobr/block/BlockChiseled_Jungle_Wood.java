@@ -26,7 +26,7 @@ public class BlockChiseled_Jungle_Wood extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:chiseled_jungle_wood")
 	public static final Block block = null;
 	public BlockChiseled_Jungle_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 38);
+		super(instance, 47);
 	}
 
 	@Override

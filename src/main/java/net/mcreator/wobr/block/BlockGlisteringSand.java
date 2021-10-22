@@ -31,7 +31,7 @@ public class BlockGlisteringSand extends ElementsWastelandsofBaedoor.ModElement 
 	@GameRegistry.ObjectHolder("wobr:glistering_sand")
 	public static final Block block = null;
 	public BlockGlisteringSand(ElementsWastelandsofBaedoor instance) {
-		super(instance, 295);
+		super(instance, 18);
 	}
 
 	@Override

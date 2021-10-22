@@ -22,7 +22,7 @@ public class PotionNether_Avoider_Shield_Potion extends ElementsWastelandsofBaed
 	@GameRegistry.ObjectHolder("wobr:nether_avoider_shield_potion")
 	public static final Potion potion = null;
 	public PotionNether_Avoider_Shield_Potion(ElementsWastelandsofBaedoor instance) {
-		super(instance, 175);
+		super(instance, 184);
 	}
 
 	@Override

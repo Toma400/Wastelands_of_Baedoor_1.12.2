@@ -26,7 +26,7 @@ public class BlockPillar_Birch extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:pillar_birch")
 	public static final Block block = null;
 	public BlockPillar_Birch(ElementsWastelandsofBaedoor instance) {
-		super(instance, 55);
+		super(instance, 64);
 	}
 
 	@Override

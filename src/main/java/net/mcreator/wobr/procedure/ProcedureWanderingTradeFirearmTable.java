@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingTradeFirearmTable extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingTradeFirearmTable(ElementsWastelandsofBaedoor instance) {
-		super(instance, 202);
+		super(instance, 211);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

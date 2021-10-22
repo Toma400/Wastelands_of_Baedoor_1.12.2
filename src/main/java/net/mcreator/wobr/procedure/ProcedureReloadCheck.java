@@ -16,7 +16,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureReloadCheck extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureReloadCheck(ElementsWastelandsofBaedoor instance) {
-		super(instance, 101);
+		super(instance, 110);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -19,7 +19,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureSandyWaterGen extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureSandyWaterGen(ElementsWastelandsofBaedoor instance) {
-		super(instance, 263);
+		super(instance, 272);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

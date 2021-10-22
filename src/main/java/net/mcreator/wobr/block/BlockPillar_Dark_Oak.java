@@ -26,7 +26,7 @@ public class BlockPillar_Dark_Oak extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:pillar_dark_oak")
 	public static final Block block = null;
 	public BlockPillar_Dark_Oak(ElementsWastelandsofBaedoor instance) {
-		super(instance, 51);
+		super(instance, 60);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BlockDark_Oak_Wooden_Stairs extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:dark_oak_wooden_stairs")
 	public static final Block block = null;
 	public BlockDark_Oak_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 32);
+		super(instance, 41);
 	}
 
 	@Override

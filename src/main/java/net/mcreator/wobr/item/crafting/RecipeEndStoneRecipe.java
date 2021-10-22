@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class RecipeEndStoneRecipe extends ElementsWastelandsofBaedoor.ModElement {
 	public RecipeEndStoneRecipe(ElementsWastelandsofBaedoor instance) {
-		super(instance, 307);
+		super(instance, 308);
 	}
 
 	@Override

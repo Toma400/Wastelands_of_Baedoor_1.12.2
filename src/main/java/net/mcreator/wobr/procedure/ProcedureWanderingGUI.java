@@ -11,7 +11,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingGUI extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingGUI(ElementsWastelandsofBaedoor instance) {
-		super(instance, 159);
+		super(instance, 168);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

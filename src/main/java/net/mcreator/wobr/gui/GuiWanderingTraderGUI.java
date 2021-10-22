@@ -39,7 +39,7 @@ public class GuiWanderingTraderGUI extends ElementsWastelandsofBaedoor.ModElemen
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiWanderingTraderGUI(ElementsWastelandsofBaedoor instance) {
-		super(instance, 126);
+		super(instance, 135);
 	}
 
 	@Override

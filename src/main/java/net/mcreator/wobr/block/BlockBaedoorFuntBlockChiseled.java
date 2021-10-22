@@ -22,7 +22,7 @@ public class BlockBaedoorFuntBlockChiseled extends ElementsWastelandsofBaedoor.M
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_chiseled")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockChiseled(ElementsWastelandsofBaedoor instance) {
-		super(instance, 21);
+		super(instance, 30);
 	}
 
 	@Override

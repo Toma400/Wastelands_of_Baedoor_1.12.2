@@ -26,7 +26,7 @@ public class BlockChiseled_Spruce_Wood extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:chiseled_spruce_wood")
 	public static final Block block = null;
 	public BlockChiseled_Spruce_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 34);
+		super(instance, 43);
 	}
 
 	@Override

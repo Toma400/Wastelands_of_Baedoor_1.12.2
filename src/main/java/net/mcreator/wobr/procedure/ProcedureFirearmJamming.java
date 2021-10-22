@@ -9,7 +9,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureFirearmJamming extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureFirearmJamming(ElementsWastelandsofBaedoor instance) {
-		super(instance, 110);
+		super(instance, 119);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

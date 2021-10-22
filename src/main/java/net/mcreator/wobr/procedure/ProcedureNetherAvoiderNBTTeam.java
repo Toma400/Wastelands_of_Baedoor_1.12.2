@@ -7,7 +7,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureNetherAvoiderNBTTeam extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureNetherAvoiderNBTTeam(ElementsWastelandsofBaedoor instance) {
-		super(instance, 177);
+		super(instance, 186);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

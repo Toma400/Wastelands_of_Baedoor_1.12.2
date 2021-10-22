@@ -22,7 +22,7 @@ public class BlockCharcoalBlock extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:charcoal_block")
 	public static final Block block = null;
 	public BlockCharcoalBlock(ElementsWastelandsofBaedoor instance) {
-		super(instance, 15);
+		super(instance, 16);
 	}
 
 	@Override

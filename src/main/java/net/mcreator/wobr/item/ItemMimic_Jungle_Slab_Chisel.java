@@ -22,7 +22,7 @@ public class ItemMimic_Jungle_Slab_Chisel extends ElementsWastelandsofBaedoor.Mo
 	@GameRegistry.ObjectHolder("wobr:mimic_jungle_slab_chisel")
 	public static final Item block = null;
 	public ItemMimic_Jungle_Slab_Chisel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 286);
+		super(instance, 295);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BlockOak_Wooden_Stairs extends ElementsWastelandsofBaedoor.ModEleme
 	@GameRegistry.ObjectHolder("wobr:oak_wooden_stairs")
 	public static final Block block = null;
 	public BlockOak_Wooden_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 28);
+		super(instance, 37);
 	}
 
 	@Override

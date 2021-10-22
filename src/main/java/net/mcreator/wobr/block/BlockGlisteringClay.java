@@ -22,7 +22,7 @@ public class BlockGlisteringClay extends ElementsWastelandsofBaedoor.ModElement 
 	@GameRegistry.ObjectHolder("wobr:glistering_clay")
 	public static final Block block = null;
 	public BlockGlisteringClay(ElementsWastelandsofBaedoor instance) {
-		super(instance, 297);
+		super(instance, 25);
 	}
 
 	@Override
