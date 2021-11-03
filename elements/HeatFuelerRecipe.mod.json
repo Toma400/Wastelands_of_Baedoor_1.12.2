@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "heat_fueler",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "Blocks.DAYLIGHT_DETECTOR"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      },
+      {
+        "value": "Blocks.REDSTONE_TORCH"
+      },
+      {
+        "value": "CUSTOM:BaedoorGoldIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HeatFueler"
+    },
+    "name": "heat_fueler_recipe",
+    "namespace": "mod"
+  }
+}

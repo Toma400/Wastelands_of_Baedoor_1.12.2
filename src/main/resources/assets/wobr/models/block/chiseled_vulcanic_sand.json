@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/vulcanic_sandstone_chisel",
+    "up": "wobr:blocks/vulcanic_sandstone_chisel",
+    "north": "wobr:blocks/vulcanic_sandstone_chisel",
+    "east": "wobr:blocks/vulcanic_sandstone_chisel",
+    "south": "wobr:blocks/vulcanic_sandstone_chisel",
+    "west": "wobr:blocks/vulcanic_sandstone_chisel",
+    "particle": "wobr:blocks/vulcanic_sandstone_chisel"
+  }
+}

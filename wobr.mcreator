@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 13,
-    "GUI": 8
+    "GUI": 8,
+    "ENTITY": 13
   },
   "mod_elements": [
     {
@@ -3539,6 +3539,140 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "HardenedVulcanicSand",
+      "type": "block",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_vulcanic_sand"
+    },
+    {
+      "name": "PolishedVulcanicSand",
+      "type": "block",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_vulcanic_sand"
+    },
+    {
+      "name": "ChiseledVulcanicSand",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_vulcanic_sand"
+    },
+    {
+      "name": "SmoothVulcanicSand",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_vulcanic_sand"
+    },
+    {
+      "name": "HeatedAir",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heated_air"
+    },
+    {
+      "name": "HeatedAirDamage",
+      "type": "procedure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatedAirDisappearance",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatFueler",
+      "type": "block",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heat_fueler"
+    },
+    {
+      "name": "HeatFuelerTransforming",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatFuelerRecipe",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3592,6 +3726,7 @@
       "tile.chiseled_jungle_wood.name": "Chiseled Jungle Wood",
       "tile.palm_wooden_stairs.name": "Palm Wooden Stairs",
       "splash_potion.effect.netheravoiderpulsating": "Splash Nether Avoider Pulsating",
+      "tile.heated_air.name": "Heated Air",
       "tile.birch_wooden_slab.name": "Birch Wooden Slab",
       "item.wobr.smallgrip": "Small Grip",
       "item.bone_javelin.name": "Bone Javelin",
@@ -3652,6 +3787,7 @@
       "item.mimic_jungle_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
       "tile.pillar_spruce.name": "Spruce Pillar",
       "item.mimic_glistering_sandstone_smooth_slab.name": "Smooth Glistering Sandstone Slab",
+      "tile.hardened_vulcanic_sand.name": "Hardened Vulcanic Sand",
       "item.wobr.shortbarrel": "Short Barrel",
       "fluid.sandywater": "SandyWater",
       "tile.nether_avoider_inactive.name": "Nether Avoider",
@@ -3659,8 +3795,10 @@
       "key.mcreator.reloadkey": "Reload Key",
       "item.small_grip.name": "Small Grip",
       "item.javelin_sack.name": "Javelin Sack",
+      "tile.smooth_vulcanic_sand.name": "Smooth Vulcanic Sand",
       "tile.chiseled_spruce_wood.name": "Chiseled Spruce Wood",
       "tile.acacia_wooden_slab.name": "Acacia Wooden Slab",
+      "tile.polished_vulcanic_sand.name": "Polished Vulcanic Sand",
       "item.mimic_birch_slab_chisel.name": "Chiseled Birch Wooden Slab",
       "effect.nether_avoider_shield_potion": "Nether Avoider Shield",
       "tile.baedoor_funt_block_polished.name": "Block of Baedoor Gold",
@@ -3682,6 +3820,7 @@
       "item.iron_throwing_axe.name": "Iron Throwing Axe",
       "tile.wooden_lamp_dark_oak.name": "Dark Oak Wooden Lamp",
       "tile.wooden_lamp_birch.name": "Birch Wooden Lamp",
+      "tile.heat_fueler.name": "Heat Fueler",
       "tile.vulcanic_veil.name": "Vulcanic Veil",
       "tile.chiseled_spruce_wooden_slab.name": "Chiseled Spruce Wooden Slab",
       "tile.chiseled_acacia_wooden_slab.name": "Chiseled Acacia Wooden Slab",
@@ -3716,6 +3855,7 @@
       "tile.chiseled_acacia_wood.name": "Chiseled Acacia Wood",
       "tile.deadwood_wooden_stairs.name": "Deadwood Wooden Stairs",
       "tile.oak_wooden_stairs.name": "Oak Wooden Stairs",
+      "tile.chiseled_vulcanic_sand.name": "Chiseled Vulcanic Sand",
       "tile.pillar_palm.name": "Palm Pillar",
       "tile.wooden_lamp_oak.name": "Oak Wooden Lamp",
       "potion.effect.nether_avoider_shield_potion": "Nether Avoider Shield",

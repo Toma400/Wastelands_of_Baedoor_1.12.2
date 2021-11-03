@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wobr:blocks/vulcanic_sandstone_smooth",
+    "up": "wobr:blocks/vulcanic_sandstone_smooth",
+    "north": "wobr:blocks/vulcanic_sandstone_smooth",
+    "east": "wobr:blocks/vulcanic_sandstone_smooth",
+    "south": "wobr:blocks/vulcanic_sandstone_smooth",
+    "west": "wobr:blocks/vulcanic_sandstone_smooth",
+    "particle": "wobr:blocks/vulcanic_sandstone_smooth"
+  }
+}
