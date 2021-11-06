@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "theguidecompleted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "wobr:theguide"
+}

@@ -3673,6 +3673,47 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GuideBook",
+      "type": "item",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guide_book"
+    },
+    {
+      "name": "TheGuide",
+      "type": "achievement",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheGuideCompleted",
+      "type": "achievement",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SimpleAdvancements",
+      "type": "procedure",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3720,17 +3761,17 @@
   "language_map": {
     "en_us": {
       "tile.baedoor_funt_block_slab.name": "Baedoor Golden Slab",
-      "tile.baedoor_funt_block_lamp.name": "Baedoor Golden Lamp",
-      "item.firearm_lock.name": "Firearm Lock",
       "potion.effect.netheravoiderpulsating": "Nether Avoider Pulsating",
+      "item.firearm_lock.name": "Firearm Lock",
+      "tile.baedoor_funt_block_lamp.name": "Baedoor Golden Lamp",
       "tile.chiseled_jungle_wood.name": "Chiseled Jungle Wood",
       "tile.palm_wooden_stairs.name": "Palm Wooden Stairs",
       "splash_potion.effect.netheravoiderpulsating": "Splash Nether Avoider Pulsating",
       "tile.heated_air.name": "Heated Air",
       "tile.birch_wooden_slab.name": "Birch Wooden Slab",
       "item.wobr.smallgrip": "Small Grip",
-      "item.bone_javelin.name": "Bone Javelin",
       "item.poisoned_throwing_dagger.name": "Throwing Dagger",
+      "item.bone_javelin.name": "Bone Javelin",
       "tile.jungle_wooden_slab.name": "Jungle Wooden Slab",
       "tile.pillar_deadwood.name": "Deadwood Pillar",
       "tile.jungle_wooden_stairs.name": "Jungle Wooden Stairs",
@@ -3750,6 +3791,7 @@
       "item.wobr.handmaderevolver": "Handmade Revolver",
       "tile.chiseled_dark_oak_wood.name": "Chiseled Dark Oak Wood",
       "tile.chiseled_birch_wooden_slab.name": "Chiseled Birch Wooden Slab",
+      "advancements.theguide.descr": "You entered the path completely. Maybe we should explain you some things...",
       "item.mimic_acacia_slab.name": "Spruce Wooden Slab",
       "tile.wooden_lamp_palm.name": "Palm Wooden Lamp",
       "tile.sandy_veil_plant.name": "Sandy Veil Plant",
@@ -3764,6 +3806,7 @@
       "tile.chiseled_palm_wood.name": "Chiseled Palm Wood",
       "tile.chiseled_palm_wooden_slab.name": "Chiseled Palm Wooden Slab",
       "tile.glistering_sandstone_smooth_slab.name": "Smooth Glistering Sandstone Slab",
+      "advancements.theguidecompleted.title": "The Guide Completed",
       "tile.baedoor_funt_block_chiseled.name": "Chiseled Block of Baedoor Gold",
       "item.stone_throwing_axe.name": "Stone Throwing Axe",
       "tile.spruce_wooden_slab.name": "Spruce Wooden Slab",
@@ -3784,6 +3827,7 @@
       "item.handmade_revolver.name": "Handmade Revolver",
       "tile.pillar_jungle.name": "Jungle Pillar",
       "tile.chiseled_deadwood_wooden_slab.name": "Chiseled Deadwood Wooden Slab",
+      "advancements.theguide.title": "The Baedoor Universe",
       "item.mimic_jungle_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
       "tile.pillar_spruce.name": "Spruce Pillar",
       "item.mimic_glistering_sandstone_smooth_slab.name": "Smooth Glistering Sandstone Slab",
@@ -3828,6 +3872,7 @@
       "itemGroup.tabwastelandsintegrations": "Wastelands Integrations",
       "tile.deadwood_wooden_slab.name": "Deadwood Wooden Slab",
       "item.mimic_deadwood_slab.name": "Deadwood Wooden Slab",
+      "advancements.theguidecompleted.descr": "Not shown.",
       "item.mimic_palm_slab_chisel.name": "Chiseled Palm Wooden Slab",
       "tile.glistering_sandstone_smooth.name": "Smooth Glistering Sandstone",
       "tile.chiseled_birch_wood.name": "Chiseled Birch Wood",
@@ -3869,6 +3914,7 @@
       "tile.baedoor_funt_block_pillar.name": "Baedoor Golden Pillar",
       "item.short_barrel.name": "Short Barrel",
       "item.mimic_dark_oak_slab_chisel.name": "Chiseled Dark Oak Wooden Slab",
+      "item.guide_book.name": "Guide Book",
       "tile.oak_wooden_slab.name": "Oak Wooden Slab",
       "itemGroup.tabwastelandsofbaedoor": "Wastelands of Baedoor",
       "item.sand_dust.name": "Sand Dust",
