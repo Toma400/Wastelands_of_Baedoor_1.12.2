@@ -3696,12 +3696,7 @@
       "locked_code": false,
       "ids": {},
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
