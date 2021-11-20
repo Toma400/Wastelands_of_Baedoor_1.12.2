@@ -1,0 +1,8 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "bottom": "wobr:blocks/vulcanic_sandstone_chisel",
+    "top": "wobr:blocks/vulcanic_sandstone_chisel",
+    "side": "wobr:blocks/vulcanic_sandstone_slab"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "chiseled_vulcanic_sand_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:chiseled_vulcanic_sand"
+    },
+    "1": {
+      "item": "wobr:chiseled_vulcanic_sand"
+    },
+    "2": {
+      "item": "wobr:chiseled_vulcanic_sand"
+    }
+  },
+  "result": {
+    "item": "wobr:mimicchiseledvulcanicsandstoneslab",
+    "count": 1
+  }
+}

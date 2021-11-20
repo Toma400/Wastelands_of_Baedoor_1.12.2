@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vulcanic_sandstone_chisel",
+        "1": "vulcanic_sandstone_slab"
+      },
+      "name": "default"
+    }
+  }
+}

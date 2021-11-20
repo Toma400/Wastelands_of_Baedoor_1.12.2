@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wobr:blocks/vulcanic_sandstone_chisel",
+    "particle": "wobr:blocks/vulcanic_sandstone_chisel"
+  }
+}

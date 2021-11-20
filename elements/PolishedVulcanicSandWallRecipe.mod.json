@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 2,
+    "group": "polished_vulcanic_sand_wall",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      },
+      {
+        "value": "CUSTOM:PolishedVulcanicSand"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Polished_Vulcanic_Sand_Wall"
+    },
+    "name": "polishedvulcanicsandwallrecipe",
+    "namespace": "mod"
+  }
+}

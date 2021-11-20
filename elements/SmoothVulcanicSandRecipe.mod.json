@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "smooth_vulcanic_sand",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:PolishedVulcanicSand"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SmoothVulcanicSand"
+    },
+    "name": "smoothvulcanicsandrecipe",
+    "namespace": "mod"
+  }
+}

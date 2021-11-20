@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "wobr:chiseled_vulcanic_sand_slab"
+    },
+    "half=top,variant=default": {
+      "model": "wobr:chiseled_vulcanic_sand_slab_top"
+    }
+  }
+}

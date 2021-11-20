@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "wobr:smooth_vulcanic_sand_slab_double"
+    }
+  }
+}

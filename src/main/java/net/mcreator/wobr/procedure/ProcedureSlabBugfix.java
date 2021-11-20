@@ -22,13 +22,23 @@ import net.mcreator.wobr.item.ItemMimic_Birch_Slab_Chisel;
 import net.mcreator.wobr.item.ItemMimic_Birch_Slab;
 import net.mcreator.wobr.item.ItemMimic_Acacia_Slab_Chisel;
 import net.mcreator.wobr.item.ItemMimic_Acacia_Slab;
+import net.mcreator.wobr.item.ItemMimicSmoothVulcanicSandSlab;
+import net.mcreator.wobr.item.ItemMimicPolishedVulcanicSandSlab;
 import net.mcreator.wobr.item.ItemMimicGoldSlab;
+import net.mcreator.wobr.item.ItemMimicGlisteringSandstoneSmoothSlab;
+import net.mcreator.wobr.item.ItemMimicGlisteringSandstoneSlab;
+import net.mcreator.wobr.item.ItemMimicChiseledVulcanicSandstoneSlab;
 import net.mcreator.wobr.block.BlockSpruce_Wooden_Slab;
+import net.mcreator.wobr.block.BlockSmooth_Vulcanic_Sand_Slab;
+import net.mcreator.wobr.block.BlockPolished_Vulcanic_Sand_Slab;
 import net.mcreator.wobr.block.BlockPalm_Wooden_Slab;
 import net.mcreator.wobr.block.BlockOakWoodenSlab;
 import net.mcreator.wobr.block.BlockJungle_Wooden_Slab;
+import net.mcreator.wobr.block.BlockGlisteringSandstoneSmoothStairs;
+import net.mcreator.wobr.block.BlockGlisteringSandstoneSlab;
 import net.mcreator.wobr.block.BlockDeadwood_Wooden_Slab;
 import net.mcreator.wobr.block.BlockDark_Oak_Wooden_Slab;
+import net.mcreator.wobr.block.BlockChiseled_Vulcanic_Sand_Slab;
 import net.mcreator.wobr.block.BlockChiseled_Spruce_Wooden_Slab;
 import net.mcreator.wobr.block.BlockChiseled_Palm_Wooden_Slab;
 import net.mcreator.wobr.block.BlockChiseled_Oak_Wooden_Slab;
@@ -193,6 +203,47 @@ public class ProcedureSlabBugfix extends ElementsWastelandsofBaedoor.ModElement 
 				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
 			if (entity instanceof EntityPlayer) {
 				ItemStack _setstack = new ItemStack(BlockChiseled_Palm_Wooden_Slab.block, (int) (1));
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+			}
+		}
+		if (((itemstack).getItem() == new ItemStack(ItemMimicGlisteringSandstoneSlab.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
+			if (entity instanceof EntityPlayer) {
+				ItemStack _setstack = new ItemStack(BlockGlisteringSandstoneSlab.block, (int) (1));
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+			}
+		} else if (((itemstack).getItem() == new ItemStack(ItemMimicGlisteringSandstoneSmoothSlab.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
+			if (entity instanceof EntityPlayer) {
+				ItemStack _setstack = new ItemStack(BlockGlisteringSandstoneSmoothStairs.block, (int) (1));
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+			}
+		} else if (((itemstack).getItem() == new ItemStack(ItemMimicPolishedVulcanicSandSlab.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
+			if (entity instanceof EntityPlayer) {
+				ItemStack _setstack = new ItemStack(BlockPolished_Vulcanic_Sand_Slab.block, (int) (1));
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+			}
+		} else if (((itemstack).getItem() == new ItemStack(ItemMimicChiseledVulcanicSandstoneSlab.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
+			if (entity instanceof EntityPlayer) {
+				ItemStack _setstack = new ItemStack(BlockChiseled_Vulcanic_Sand_Slab.block, (int) (1));
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
+			}
+		} else if (((itemstack).getItem() == new ItemStack(ItemMimicSmoothVulcanicSandSlab.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).inventory.clearMatchingItems((itemstack).getItem(), -1, (int) 1, null);
+			if (entity instanceof EntityPlayer) {
+				ItemStack _setstack = new ItemStack(BlockSmooth_Vulcanic_Sand_Slab.block, (int) (1));
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(((EntityPlayer) entity), _setstack);
 			}

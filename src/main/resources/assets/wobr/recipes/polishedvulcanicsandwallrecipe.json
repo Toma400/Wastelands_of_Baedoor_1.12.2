@@ -1,0 +1,32 @@
+{
+  "group": "polished_vulcanic_sand_wall",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "wobr:polished_vulcanic_sand"
+    },
+    "1": {
+      "item": "wobr:polished_vulcanic_sand"
+    },
+    "2": {
+      "item": "wobr:polished_vulcanic_sand"
+    },
+    "3": {
+      "item": "wobr:polished_vulcanic_sand"
+    },
+    "4": {
+      "item": "wobr:polished_vulcanic_sand"
+    },
+    "5": {
+      "item": "wobr:polished_vulcanic_sand"
+    }
+  },
+  "result": {
+    "item": "wobr:polished_vulcanic_sand_wall",
+    "count": 2
+  }
+}
