@@ -29,7 +29,7 @@ public class BlockNether_Shielder extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:nether_shielder")
 	public static final Block block = null;
 	public BlockNether_Shielder(ElementsWastelandsofBaedoor instance) {
-		super(instance, 74);
+		super(instance, 85);
 	}
 
 	@Override

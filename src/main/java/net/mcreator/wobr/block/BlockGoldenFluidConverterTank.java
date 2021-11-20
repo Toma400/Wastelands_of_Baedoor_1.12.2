@@ -47,7 +47,7 @@ public class BlockGoldenFluidConverterTank extends ElementsWastelandsofBaedoor.M
 	@GameRegistry.ObjectHolder("wobr:golden_fluid_converter_tank")
 	public static final Block block = null;
 	public BlockGoldenFluidConverterTank(ElementsWastelandsofBaedoor instance) {
-		super(instance, 34);
+		super(instance, 44);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class BlockSandyWater extends ElementsWastelandsofBaedoor.ModElement {
 	public static final Item item = null;
 	private Fluid fluid;
 	public BlockSandyWater(ElementsWastelandsofBaedoor instance) {
-		super(instance, 103);
+		super(instance, 114);
 		fluid = new Fluid("sandywater", new ResourceLocation("wobr:blocks/sandy_water"), new ResourceLocation("wobr:blocks/sandy_water"))
 				.setLuminosity(0).setDensity(1000).setViscosity(1000).setGaseous(false);
 	}

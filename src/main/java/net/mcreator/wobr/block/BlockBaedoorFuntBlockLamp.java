@@ -22,7 +22,7 @@ public class BlockBaedoorFuntBlockLamp extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_lamp")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockLamp(ElementsWastelandsofBaedoor instance) {
-		super(instance, 31);
+		super(instance, 41);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class BlockDeadwood_Wooden_Slab extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:deadwood_wooden_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockDeadwood_Wooden_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 93);
+		super(instance, 104);
 	}
 
 	@Override

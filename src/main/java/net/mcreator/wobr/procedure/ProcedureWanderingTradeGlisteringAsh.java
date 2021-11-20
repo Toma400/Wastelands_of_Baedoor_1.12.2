@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingTradeGlisteringAsh extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingTradeGlisteringAsh(ElementsWastelandsofBaedoor instance) {
-		super(instance, 262);
+		super(instance, 272);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

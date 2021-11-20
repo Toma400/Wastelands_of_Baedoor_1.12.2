@@ -8,7 +8,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class OreDictShotguns extends ElementsWastelandsofBaedoor.ModElement {
 	public OreDictShotguns(ElementsWastelandsofBaedoor instance) {
-		super(instance, 125);
+		super(instance, 136);
 	}
 
 	@Override

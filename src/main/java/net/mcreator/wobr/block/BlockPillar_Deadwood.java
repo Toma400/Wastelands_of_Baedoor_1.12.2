@@ -31,7 +31,7 @@ public class BlockPillar_Deadwood extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:pillar_deadwood")
 	public static final Block block = null;
 	public BlockPillar_Deadwood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 101);
+		super(instance, 112);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class BlockGlisteringSandstone extends ElementsWastelandsofBaedoor.ModEle
 	@GameRegistry.ObjectHolder("wobr:glistering_sandstone")
 	public static final Block block = null;
 	public BlockGlisteringSandstone(ElementsWastelandsofBaedoor instance) {
-		super(instance, 19);
+		super(instance, 29);
 	}
 
 	@Override

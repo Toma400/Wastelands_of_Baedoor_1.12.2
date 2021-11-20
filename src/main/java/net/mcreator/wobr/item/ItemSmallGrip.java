@@ -20,7 +20,7 @@ public class ItemSmallGrip extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:small_grip")
 	public static final Item block = null;
 	public ItemSmallGrip(ElementsWastelandsofBaedoor instance) {
-		super(instance, 85);
+		super(instance, 96);
 	}
 
 	@Override

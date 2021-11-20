@@ -24,7 +24,7 @@ public class BlockSmooth_Vulcanic_Sand_Stairs extends ElementsWastelandsofBaedoo
 	@GameRegistry.ObjectHolder("wobr:smooth_vulcanic_sand_stairs")
 	public static final Block block = null;
 	public BlockSmooth_Vulcanic_Sand_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 346);
+		super(instance, 27);
 	}
 
 	@Override

@@ -21,7 +21,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureGlisteringAshDrop extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureGlisteringAshDrop(ElementsWastelandsofBaedoor instance) {
-		super(instance, 249);
+		super(instance, 259);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

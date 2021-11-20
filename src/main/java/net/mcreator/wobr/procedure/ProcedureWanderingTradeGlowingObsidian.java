@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingTradeGlowingObsidian extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingTradeGlowingObsidian(ElementsWastelandsofBaedoor instance) {
-		super(instance, 208);
+		super(instance, 218);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

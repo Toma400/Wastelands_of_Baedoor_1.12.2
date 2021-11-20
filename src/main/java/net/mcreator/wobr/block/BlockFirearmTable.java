@@ -22,7 +22,7 @@ public class BlockFirearmTable extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:firearm_table")
 	public static final Block block = null;
 	public BlockFirearmTable(ElementsWastelandsofBaedoor instance) {
-		super(instance, 71);
+		super(instance, 82);
 	}
 
 	@Override

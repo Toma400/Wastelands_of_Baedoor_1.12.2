@@ -11,7 +11,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureCom_Reapering_Check extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureCom_Reapering_Check(ElementsWastelandsofBaedoor instance) {
-		super(instance, 190);
+		super(instance, 201);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

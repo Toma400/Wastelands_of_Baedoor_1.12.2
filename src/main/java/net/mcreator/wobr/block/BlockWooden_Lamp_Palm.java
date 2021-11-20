@@ -31,7 +31,7 @@ public class BlockWooden_Lamp_Palm extends ElementsWastelandsofBaedoor.ModElemen
 	@GameRegistry.ObjectHolder("wobr:wooden_lamp_palm")
 	public static final Block block = null;
 	public BlockWooden_Lamp_Palm(ElementsWastelandsofBaedoor instance) {
-		super(instance, 100);
+		super(instance, 111);
 	}
 
 	@Override

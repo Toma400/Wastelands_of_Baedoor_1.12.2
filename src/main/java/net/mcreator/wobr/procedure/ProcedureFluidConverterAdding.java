@@ -18,7 +18,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureFluidConverterAdding extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureFluidConverterAdding(ElementsWastelandsofBaedoor instance) {
-		super(instance, 257);
+		super(instance, 267);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

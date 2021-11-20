@@ -20,7 +20,7 @@ public class ItemCrackedBone extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:cracked_bone")
 	public static final Item block = null;
 	public ItemCrackedBone(ElementsWastelandsofBaedoor instance) {
-		super(instance, 87);
+		super(instance, 98);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class BlockPolished_Vulcanic_Sand_Stairs extends ElementsWastelandsofBaed
 	@GameRegistry.ObjectHolder("wobr:polished_vulcanic_sand_stairs")
 	public static final Block block = null;
 	public BlockPolished_Vulcanic_Sand_Stairs(ElementsWastelandsofBaedoor instance) {
-		super(instance, 331);
+		super(instance, 21);
 	}
 
 	@Override

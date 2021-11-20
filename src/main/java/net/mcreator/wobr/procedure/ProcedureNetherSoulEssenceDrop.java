@@ -16,7 +16,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureNetherSoulEssenceDrop extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureNetherSoulEssenceDrop(ElementsWastelandsofBaedoor instance) {
-		super(instance, 160);
+		super(instance, 171);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

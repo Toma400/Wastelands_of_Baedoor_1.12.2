@@ -50,7 +50,7 @@ public class BlockHeatedAir extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:heated_air")
 	public static final Block block = null;
 	public BlockHeatedAir(ElementsWastelandsofBaedoor instance) {
-		super(instance, 321);
+		super(instance, 327);
 	}
 
 	@Override

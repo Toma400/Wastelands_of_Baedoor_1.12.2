@@ -26,7 +26,7 @@ public class BlockHeatFueler extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:heat_fueler")
 	public static final Block block = null;
 	public BlockHeatFueler(ElementsWastelandsofBaedoor instance) {
-		super(instance, 324);
+		super(instance, 45);
 	}
 
 	@Override

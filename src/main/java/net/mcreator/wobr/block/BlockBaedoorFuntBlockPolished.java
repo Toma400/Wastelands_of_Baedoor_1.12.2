@@ -22,7 +22,7 @@ public class BlockBaedoorFuntBlockPolished extends ElementsWastelandsofBaedoor.M
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_polished")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockPolished(ElementsWastelandsofBaedoor instance) {
-		super(instance, 26);
+		super(instance, 36);
 	}
 
 	@Override

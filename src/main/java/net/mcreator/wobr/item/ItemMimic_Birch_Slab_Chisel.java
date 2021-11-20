@@ -22,7 +22,7 @@ public class ItemMimic_Birch_Slab_Chisel extends ElementsWastelandsofBaedoor.Mod
 	@GameRegistry.ObjectHolder("wobr:mimic_birch_slab_chisel")
 	public static final Item block = null;
 	public ItemMimic_Birch_Slab_Chisel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 299);
+		super(instance, 309);
 	}
 
 	@Override

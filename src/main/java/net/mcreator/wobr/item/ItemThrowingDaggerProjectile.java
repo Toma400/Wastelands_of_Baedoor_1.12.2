@@ -38,7 +38,7 @@ public class ItemThrowingDaggerProjectile extends ElementsWastelandsofBaedoor.Mo
 	public static final Item block = null;
 	public static final int ENTITYID = 2;
 	public ItemThrowingDaggerProjectile(ElementsWastelandsofBaedoor instance) {
-		super(instance, 130);
+		super(instance, 141);
 	}
 
 	@Override

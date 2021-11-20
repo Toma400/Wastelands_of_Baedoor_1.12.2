@@ -22,7 +22,7 @@ public class ItemMimicGoldSlab extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:mimicgoldslab")
 	public static final Item block = null;
 	public ItemMimicGoldSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 287);
+		super(instance, 297);
 	}
 
 	@Override

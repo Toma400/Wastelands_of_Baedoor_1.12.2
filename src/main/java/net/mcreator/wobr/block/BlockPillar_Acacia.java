@@ -26,7 +26,7 @@ public class BlockPillar_Acacia extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:pillar_acacia")
 	public static final Block block = null;
 	public BlockPillar_Acacia(ElementsWastelandsofBaedoor instance) {
-		super(instance, 63);
+		super(instance, 74);
 	}
 
 	@Override

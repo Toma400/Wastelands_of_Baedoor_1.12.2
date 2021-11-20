@@ -14,7 +14,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureHeatFuelerTransforming extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureHeatFuelerTransforming(ElementsWastelandsofBaedoor instance) {
-		super(instance, 325);
+		super(instance, 330);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

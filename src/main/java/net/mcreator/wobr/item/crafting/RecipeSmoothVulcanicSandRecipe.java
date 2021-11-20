@@ -13,7 +13,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class RecipeSmoothVulcanicSandRecipe extends ElementsWastelandsofBaedoor.ModElement {
 	public RecipeSmoothVulcanicSandRecipe(ElementsWastelandsofBaedoor instance) {
-		super(instance, 345);
+		super(instance, 346);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureReloadHandmadeRevolver extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureReloadHandmadeRevolver(ElementsWastelandsofBaedoor instance) {
-		super(instance, 109);
+		super(instance, 120);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

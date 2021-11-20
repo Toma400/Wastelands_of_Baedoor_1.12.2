@@ -22,7 +22,7 @@ public class ItemMimic_Acacia_Slab extends ElementsWastelandsofBaedoor.ModElemen
 	@GameRegistry.ObjectHolder("wobr:mimic_acacia_slab")
 	public static final Item block = null;
 	public ItemMimic_Acacia_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 296);
+		super(instance, 306);
 	}
 
 	@Override

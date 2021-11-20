@@ -10,7 +10,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureHeatedAirDisappearance extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureHeatedAirDisappearance(ElementsWastelandsofBaedoor instance) {
-		super(instance, 323);
+		super(instance, 329);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

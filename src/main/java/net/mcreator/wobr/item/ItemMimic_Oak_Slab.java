@@ -22,7 +22,7 @@ public class ItemMimic_Oak_Slab extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:mimic_oak_slab")
 	public static final Item block = null;
 	public ItemMimic_Oak_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 288);
+		super(instance, 298);
 	}
 
 	@Override

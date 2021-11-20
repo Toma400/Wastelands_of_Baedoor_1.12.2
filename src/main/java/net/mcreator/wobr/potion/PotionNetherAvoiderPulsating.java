@@ -26,7 +26,7 @@ public class PotionNetherAvoiderPulsating extends ElementsWastelandsofBaedoor.Mo
 	@GameRegistry.ObjectHolder("wobr:netheravoiderpulsating")
 	public static final Potion potion = null;
 	public PotionNetherAvoiderPulsating(ElementsWastelandsofBaedoor instance) {
-		super(instance, 180);
+		super(instance, 191);
 	}
 
 	@Override

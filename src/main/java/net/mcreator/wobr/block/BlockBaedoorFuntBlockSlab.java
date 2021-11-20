@@ -37,7 +37,7 @@ public class BlockBaedoorFuntBlockSlab extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockBaedoorFuntBlockSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 27);
+		super(instance, 37);
 	}
 
 	@Override

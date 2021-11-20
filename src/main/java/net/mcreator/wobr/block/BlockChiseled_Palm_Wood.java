@@ -31,7 +31,7 @@ public class BlockChiseled_Palm_Wood extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:chiseled_palm_wood")
 	public static final Block block = null;
 	public BlockChiseled_Palm_Wood(ElementsWastelandsofBaedoor instance) {
-		super(instance, 95);
+		super(instance, 106);
 	}
 
 	@Override

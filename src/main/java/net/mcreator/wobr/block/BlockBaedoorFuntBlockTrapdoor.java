@@ -25,7 +25,7 @@ public class BlockBaedoorFuntBlockTrapdoor extends ElementsWastelandsofBaedoor.M
 	@GameRegistry.ObjectHolder("wobr:baedoor_funt_block_trapdoor")
 	public static final Block block = null;
 	public BlockBaedoorFuntBlockTrapdoor(ElementsWastelandsofBaedoor instance) {
-		super(instance, 33);
+		super(instance, 43);
 	}
 
 	@Override

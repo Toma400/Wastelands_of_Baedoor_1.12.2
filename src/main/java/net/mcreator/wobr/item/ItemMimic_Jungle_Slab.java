@@ -22,7 +22,7 @@ public class ItemMimic_Jungle_Slab extends ElementsWastelandsofBaedoor.ModElemen
 	@GameRegistry.ObjectHolder("wobr:mimic_jungle_slab")
 	public static final Item block = null;
 	public ItemMimic_Jungle_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 294);
+		super(instance, 304);
 	}
 
 	@Override

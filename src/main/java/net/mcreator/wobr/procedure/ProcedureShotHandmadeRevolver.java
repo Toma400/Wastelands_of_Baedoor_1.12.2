@@ -22,7 +22,7 @@ import java.util.Random;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureShotHandmadeRevolver extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureShotHandmadeRevolver(ElementsWastelandsofBaedoor instance) {
-		super(instance, 113);
+		super(instance, 124);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

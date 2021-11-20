@@ -48,7 +48,7 @@ public class BlockGolden_Fluid_Converter_Active extends ElementsWastelandsofBaed
 	@GameRegistry.ObjectHolder("wobr:golden_fluid_converter_active")
 	public static final Block block = null;
 	public BlockGolden_Fluid_Converter_Active(ElementsWastelandsofBaedoor instance) {
-		super(instance, 254);
+		super(instance, 264);
 	}
 
 	@Override

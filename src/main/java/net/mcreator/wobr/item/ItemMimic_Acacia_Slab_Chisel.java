@@ -22,7 +22,7 @@ public class ItemMimic_Acacia_Slab_Chisel extends ElementsWastelandsofBaedoor.Mo
 	@GameRegistry.ObjectHolder("wobr:mimic_acacia_slab_chisel")
 	public static final Item block = null;
 	public ItemMimic_Acacia_Slab_Chisel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 297);
+		super(instance, 307);
 	}
 
 	@Override

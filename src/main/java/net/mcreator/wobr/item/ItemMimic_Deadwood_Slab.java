@@ -22,7 +22,7 @@ public class ItemMimic_Deadwood_Slab extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:mimic_deadwood_slab")
 	public static final Item block = null;
 	public ItemMimic_Deadwood_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 300);
+		super(instance, 310);
 	}
 
 	@Override

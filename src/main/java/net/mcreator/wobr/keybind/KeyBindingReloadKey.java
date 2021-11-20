@@ -30,7 +30,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 public class KeyBindingReloadKey extends ElementsWastelandsofBaedoor.ModElement {
 	private KeyBinding keys;
 	public KeyBindingReloadKey(ElementsWastelandsofBaedoor instance) {
-		super(instance, 115);
+		super(instance, 126);
 	}
 
 	@Override

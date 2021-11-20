@@ -134,7 +134,20 @@
       "wobr:glisteringsandstonestairsrecipe",
       "wobr:glisteringsandstoneslabrecipe",
       "wobr:glisteringsandstonesmoothstairsrecipe",
-      "wobr:glisteringsandstonesmoothslabrecipe"
+      "wobr:glisteringsandstonesmoothslabrecipe",
+      "wobr:blockofnethersoulessencerecipe",
+      "wobr:blockofnethersoulessenceunrecipe",
+      "wobr:heat_fueler_recipe",
+      "wobr:hardenedvulcanicsandrecipe",
+      "wobr:polishedvulcanicsandrecipe",
+      "wobr:polishedvulcanicsandstairsrecipe",
+      "wobr:polishedvulcanicsandslabrecipe",
+      "wobr:polishedvulcanicsandwallrecipe",
+      "wobr:chiseledvulcanicsandslabrecipe",
+      "wobr:chiseledvulcanicsandrecipe",
+      "wobr:smoothvulcanicsandrecipe",
+      "wobr:smoothvulcanicsandstairsrecipe",
+      "wobr:smoothvulcanicsandslabrecipe"
     ]
   }
 }

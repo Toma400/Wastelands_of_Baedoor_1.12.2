@@ -19,7 +19,7 @@ public class ItemGuideBook extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:guide_book")
 	public static final Item block = null;
 	public ItemGuideBook(ElementsWastelandsofBaedoor instance) {
-		super(instance, 327);
+		super(instance, 332);
 	}
 
 	@Override

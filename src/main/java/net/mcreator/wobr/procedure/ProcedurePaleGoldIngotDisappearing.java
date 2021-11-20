@@ -12,7 +12,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedurePaleGoldIngotDisappearing extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedurePaleGoldIngotDisappearing(ElementsWastelandsofBaedoor instance) {
-		super(instance, 253);
+		super(instance, 263);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

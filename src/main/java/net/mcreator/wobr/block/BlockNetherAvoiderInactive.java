@@ -30,7 +30,7 @@ public class BlockNetherAvoiderInactive extends ElementsWastelandsofBaedoor.ModE
 	@GameRegistry.ObjectHolder("wobr:nether_avoider_inactive")
 	public static final Block block = null;
 	public BlockNetherAvoiderInactive(ElementsWastelandsofBaedoor instance) {
-		super(instance, 73);
+		super(instance, 84);
 	}
 
 	@Override

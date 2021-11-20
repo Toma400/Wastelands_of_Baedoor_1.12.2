@@ -22,7 +22,7 @@ public class ItemMimic_Birch_Slab extends ElementsWastelandsofBaedoor.ModElement
 	@GameRegistry.ObjectHolder("wobr:mimic_birch_slab")
 	public static final Item block = null;
 	public ItemMimic_Birch_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 298);
+		super(instance, 308);
 	}
 
 	@Override

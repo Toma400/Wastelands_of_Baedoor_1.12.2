@@ -37,7 +37,7 @@ public class BlockSmooth_Vulcanic_Sand_Slab extends ElementsWastelandsofBaedoor.
 	@GameRegistry.ObjectHolder("wobr:smooth_vulcanic_sand_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockSmooth_Vulcanic_Sand_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 347);
+		super(instance, 26);
 	}
 
 	@Override

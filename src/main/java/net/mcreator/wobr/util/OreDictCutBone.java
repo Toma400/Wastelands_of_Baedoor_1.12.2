@@ -12,7 +12,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class OreDictCutBone extends ElementsWastelandsofBaedoor.ModElement {
 	public OreDictCutBone(ElementsWastelandsofBaedoor instance) {
-		super(instance, 206);
+		super(instance, 216);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class ItemMimicSmoothVulcanicSandSlab extends ElementsWastelandsofBaedoor
 	@GameRegistry.ObjectHolder("wobr:mimicsmoothvulcanicsandslab")
 	public static final Item block = null;
 	public ItemMimicSmoothVulcanicSandSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 342);
+		super(instance, 343);
 	}
 
 	@Override

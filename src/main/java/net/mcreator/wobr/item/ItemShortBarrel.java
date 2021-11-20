@@ -20,7 +20,7 @@ public class ItemShortBarrel extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:short_barrel")
 	public static final Item block = null;
 	public ItemShortBarrel(ElementsWastelandsofBaedoor instance) {
-		super(instance, 86);
+		super(instance, 97);
 	}
 
 	@Override

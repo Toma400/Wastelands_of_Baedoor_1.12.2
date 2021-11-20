@@ -26,7 +26,7 @@ public class BlockPillar_Jungle extends ElementsWastelandsofBaedoor.ModElement {
 	@GameRegistry.ObjectHolder("wobr:pillar_jungle")
 	public static final Block block = null;
 	public BlockPillar_Jungle(ElementsWastelandsofBaedoor instance) {
-		super(instance, 62);
+		super(instance, 73);
 	}
 
 	@Override

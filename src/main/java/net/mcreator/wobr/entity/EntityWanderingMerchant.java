@@ -40,7 +40,7 @@ public class EntityWanderingMerchant extends ElementsWastelandsofBaedoor.ModElem
 	public static final int ENTITYID = 9;
 	public static final int ENTITYID_RANGED = 10;
 	public EntityWanderingMerchant(ElementsWastelandsofBaedoor instance) {
-		super(instance, 90);
+		super(instance, 101);
 	}
 
 	@Override

@@ -10,7 +10,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureSandyVeilGrowth extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureSandyVeilGrowth(ElementsWastelandsofBaedoor instance) {
-		super(instance, 200);
+		super(instance, 210);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

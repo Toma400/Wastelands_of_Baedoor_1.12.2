@@ -22,7 +22,7 @@ public class ItemMimicChiseledVulcanicSandstoneSlab extends ElementsWastelandsof
 	@GameRegistry.ObjectHolder("wobr:mimicchiseledvulcanicsandstoneslab")
 	public static final Item block = null;
 	public ItemMimicChiseledVulcanicSandstoneSlab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 341);
+		super(instance, 342);
 	}
 
 	@Override

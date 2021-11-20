@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureVulcanic_Veil_Growth extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureVulcanic_Veil_Growth(ElementsWastelandsofBaedoor instance) {
-		super(instance, 201);
+		super(instance, 211);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

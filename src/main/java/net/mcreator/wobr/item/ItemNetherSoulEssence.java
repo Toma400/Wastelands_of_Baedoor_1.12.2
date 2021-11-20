@@ -24,7 +24,7 @@ public class ItemNetherSoulEssence extends ElementsWastelandsofBaedoor.ModElemen
 	@GameRegistry.ObjectHolder("wobr:nether_soul_essence")
 	public static final Item block = null;
 	public ItemNetherSoulEssence(ElementsWastelandsofBaedoor instance) {
-		super(instance, 89);
+		super(instance, 100);
 	}
 
 	@Override

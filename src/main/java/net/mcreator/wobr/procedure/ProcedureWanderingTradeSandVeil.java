@@ -14,7 +14,7 @@ import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingTradeSandVeil extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingTradeSandVeil(ElementsWastelandsofBaedoor instance) {
-		super(instance, 209);
+		super(instance, 219);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

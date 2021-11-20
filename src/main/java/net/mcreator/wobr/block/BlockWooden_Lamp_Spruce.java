@@ -26,7 +26,7 @@ public class BlockWooden_Lamp_Spruce extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:wooden_lamp_spruce")
 	public static final Block block = null;
 	public BlockWooden_Lamp_Spruce(ElementsWastelandsofBaedoor instance) {
-		super(instance, 67);
+		super(instance, 78);
 	}
 
 	@Override

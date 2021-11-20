@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureNetherAvoiderSwitch extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureNetherAvoiderSwitch(ElementsWastelandsofBaedoor instance) {
-		super(instance, 178);
+		super(instance, 189);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

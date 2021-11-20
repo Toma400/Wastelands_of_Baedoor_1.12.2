@@ -20,7 +20,7 @@ import java.util.Map;
 @ElementsWastelandsofBaedoor.ModElement.Tag
 public class ProcedureWanderingTrades extends ElementsWastelandsofBaedoor.ModElement {
 	public ProcedureWanderingTrades(ElementsWastelandsofBaedoor instance) {
-		super(instance, 146);
+		super(instance, 157);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

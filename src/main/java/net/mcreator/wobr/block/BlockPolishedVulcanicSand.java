@@ -22,7 +22,7 @@ public class BlockPolishedVulcanicSand extends ElementsWastelandsofBaedoor.ModEl
 	@GameRegistry.ObjectHolder("wobr:polished_vulcanic_sand")
 	public static final Block block = null;
 	public BlockPolishedVulcanicSand(ElementsWastelandsofBaedoor instance) {
-		super(instance, 318);
+		super(instance, 19);
 	}
 
 	@Override

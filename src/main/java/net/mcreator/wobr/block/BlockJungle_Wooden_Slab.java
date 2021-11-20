@@ -37,7 +37,7 @@ public class BlockJungle_Wooden_Slab extends ElementsWastelandsofBaedoor.ModElem
 	@GameRegistry.ObjectHolder("wobr:jungle_wooden_slab_double")
 	public static final Block block_slab_double = null;
 	public BlockJungle_Wooden_Slab(ElementsWastelandsofBaedoor instance) {
-		super(instance, 48);
+		super(instance, 59);
 	}
 
 	@Override
