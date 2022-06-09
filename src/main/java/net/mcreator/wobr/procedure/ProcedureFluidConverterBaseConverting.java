@@ -1,12 +1,8 @@
 package net.mcreator.wobr.procedure;
 
-import net.minecraftforge.oredict.OreDictionary;
-
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.item.ItemStack;
 import net.minecraft.init.Blocks;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 
 import net.mcreator.wobr.block.BlockVulcanicSand;
@@ -45,23 +41,22 @@ public class ProcedureFluidConverterBaseConverting extends ElementsWastelandsofB
 		for (int index0 = 0; index0 < (int) (3); index0++) {
 			sz = (double) -1;
 			for (int index1 = 0; index1 < (int) (3); index1++) {
-				if (((OreDictionary.containsMatch(false, OreDictionary.getOres("forge:stone"),
-						(new ItemStack((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock()))))
-						&& (!(OreDictionary.containsMatch(false, OreDictionary.getOres("forge:invulnerable_stone"), (new ItemStack(
-								(world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock()))))))) {
-					{
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-						IBlockState _bs = Blocks.NETHERRACK.getDefaultState();
-						world.setBlockState(_bp, _bs, 3);
-					}
+				if (((((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock() == Blocks.STONE
+						.getStateFromMeta(1).getBlock())
+						|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock() == Blocks.STONE
+								.getStateFromMeta(5).getBlock()))
+						|| (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock() == Blocks.STONE
+								.getStateFromMeta(3).getBlock())
+								|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getBlock() == Blocks.STONE
+										.getStateFromMeta(0).getBlock())))) {
+					world.setBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))), Blocks.NETHERRACK.getDefaultState(), 3);
 				} else if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))))).getMaterial() == Material.GRASS)) {
-					{
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-						IBlockState _bs = BlockVulcanicSand.block.getDefaultState();
-						world.setBlockState(_bp, _bs, 3);
-					}
+					world.setBlockState(new BlockPos((int) (x + (sx)), (int) (y - 2), (int) (z + (sz))), BlockVulcanicSand.block.getDefaultState(),
+							3);
 				}
+				sz = (double) ((sz) + 1);
 			}
+			sx = (double) ((sx) + 1);
 		}
 	}
 }
