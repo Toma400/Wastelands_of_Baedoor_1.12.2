@@ -2,19 +2,15 @@ package net.mcreator.wobr.procedure;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.TextComponentString;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.projectile.EntityTippedArrow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
-import net.minecraft.command.ICommandSender;
 
+import net.mcreator.wobr.item.ItemBulletRanged;
 import net.mcreator.wobr.ElementsWastelandsofBaedoor;
 
 import java.util.Random;
@@ -85,54 +81,12 @@ public class ProcedureShotHandmadeRevolver extends ElementsWastelandsofBaedoor.M
 							(((itemstack).hasTagCompound() ? (itemstack).getTagCompound().getDouble("Ammo") : -1) - 1));
 				}
 				if (!world.isRemote && entity instanceof EntityLivingBase) {
-					EntityTippedArrow entityToSpawn = new EntityTippedArrow(world, (EntityLivingBase) entity);
-					entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, ((float) 2) * 2.0F, 0);
+					ItemBulletRanged.EntityArrowCustom entityToSpawn = new ItemBulletRanged.EntityArrowCustom(world, (EntityLivingBase) entity);
+					// edited code + imported
+					entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, ((float) 1) * 2.0F, 0);
 					entityToSpawn.setDamage(((float) 2) * 2.0F);
 					entityToSpawn.setKnockbackStrength((int) 1);
 					world.spawnEntity(entityToSpawn);
-				}
-				if (!entity.world.isRemote && entity.world.getMinecraftServer() != null) {
-					entity.world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
-						@Override
-						public String getName() {
-							return "";
-						}
-
-						@Override
-						public boolean canUseCommand(int permission, String command) {
-							return true;
-						}
-
-						@Override
-						public World getEntityWorld() {
-							return entity.world;
-						}
-
-						@Override
-						public MinecraftServer getServer() {
-							return entity.world.getMinecraftServer();
-						}
-
-						@Override
-						public boolean sendCommandFeedback() {
-							return false;
-						}
-
-						@Override
-						public BlockPos getPosition() {
-							return entity.getPosition();
-						}
-
-						@Override
-						public Vec3d getPositionVector() {
-							return new Vec3d(entity.posX, entity.posY, entity.posZ);
-						}
-
-						@Override
-						public Entity getCommandSenderEntity() {
-							return entity;
-						}
-					}, "/execute @e[type=Arrow, r=5] ~ ~ ~ summon Fireball ~ ~ ~ {direction:[0.0,0.0,0.0],ExplosionPower:0}");
 				}
 			} else {
 				world.playSound((EntityPlayer) null, x, y, z,

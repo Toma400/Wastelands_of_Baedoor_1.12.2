@@ -61,8 +61,8 @@ public class ProcedureHeatFuelerTransforming extends ElementsWastelandsofBaedoor
 						if ((((world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getTemperature(new BlockPos((int) x, (int) y, (int) z))
 								* 100.f) > 0.9)
 								&& ((world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getTemperature(new BlockPos((int) x, (int) y, (int) z))
-										* 100.f) < 2))) {
-							if ((Math.random() <= 0.25)) {
+										* 100.f) < 1.8))) {
+							if ((Math.random() <= 0.1)) {
 								if (!world.isRemote) {
 									EntityItem entityToSpawn = new EntityItem(world, x, (y - 1), z, new ItemStack(Items.COAL, (int) (1), 1));
 									entityToSpawn.setPickupDelay(10);
@@ -70,11 +70,13 @@ public class ProcedureHeatFuelerTransforming extends ElementsWastelandsofBaedoor
 								}
 							}
 						} else if (((world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getTemperature(new BlockPos((int) x, (int) y, (int) z))
-								* 100.f) >= 2)) {
-							if (!world.isRemote) {
-								EntityItem entityToSpawn = new EntityItem(world, x, (y - 1), z, new ItemStack(Items.COAL, (int) (1), 1));
-								entityToSpawn.setPickupDelay(10);
-								world.spawnEntity(entityToSpawn);
+								* 100.f) >= 1.8)) {
+							if ((Math.random() <= 0.5)) {
+								if (!world.isRemote) {
+									EntityItem entityToSpawn = new EntityItem(world, x, (y - 1), z, new ItemStack(Items.COAL, (int) (1), 1));
+									entityToSpawn.setPickupDelay(10);
+									world.spawnEntity(entityToSpawn);
+								}
 							}
 						}
 					}
